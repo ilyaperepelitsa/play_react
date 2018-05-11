@@ -16,4 +16,6 @@ const title = React.createElement(
   "Hello World"
 )
 
-ReactDOM.rended
+ReactDOM.render(
+  title, 
+)
