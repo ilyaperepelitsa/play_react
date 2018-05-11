@@ -18,5 +18,5 @@ const title = React.createElement(
 
 ReactDOM.render(
   title,
-  document.getElementById
+  document.getElementById("react-container")
 )
