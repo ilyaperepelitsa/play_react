@@ -1,5 +1,6 @@
 const {render} = ReactDOM;
 
 render (
-  <h1 id =
+  <h1 id = "title"
+  clas
 )
