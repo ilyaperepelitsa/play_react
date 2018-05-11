@@ -1,3 +1,3 @@
 const {render} = ReactDOM;
 
-render {}
+render ()
