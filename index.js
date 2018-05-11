@@ -6,4 +6,5 @@ render (
       style = {{backgroundColor: "orange", color: "white", fontFamily: "verdana"}}>
       Hello World
   </h1>,
+  d
 )
