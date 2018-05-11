@@ -12,5 +12,5 @@
 
 const title = React.createElement(
   "h1",
-  {id: "title", className }
+  {id: "title", className: "he"}
 )
