@@ -1,1 +1,1 @@
-const {render};
+const {render} = React;
