@@ -17,5 +17,6 @@ const title = React.createElement(
 )
 
 ReactDOM.render(
-  title, 
+  title,
+  document.getElementById
 )
