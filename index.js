@@ -2,5 +2,6 @@ const {render} = ReactDOM;
 
 render (
   <h1 id = "title"
-      classN
+      className = "header"
+      
 )
