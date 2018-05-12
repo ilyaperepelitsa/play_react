@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src = "https://unpkg.com/react@16.0.0/umd/react.production.min.js"></script>
+    <script src = "https://unpkg.com/react-dom@16.0.0/umd/react-dom.production.min.js"></script>
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.38/browser.js"></script>
+    <!-- <script src = "https://cdnjs.cloudflare.com/ajax/libs/babel-core/6.1.19/browser.js"></script> -->
+    <link rel = "stylesheet" href = "main.css">
+    <meta charset = "UTF-8">
+    <title>Styling components</title>
+  </head>
+
+  <body>
+    <div id = "app">
+      React hasn't rendered
+    </div>
+
+    <script type = "text/babel">
+
+      var ColorSpectrum = function(){
+        return(
+        
+        );
+      }
+
+      class Red extends React.Component{
+        render(){
+          return(
+            <h1 class = "red">Red</h1>
+          )
+        }
+      }
+
+      class Orange extends React.Component{
+        render(){
+          return(
+            <h1 class = "orange">Orange</h1>
+          )
+        }
+      }
+
+      class Yellow extends React.Component{
+        render(){
+          return(
+            <h1 class = "yellow">Yellow</h1>
+          )
+        }
+      }
+
+      class Green extends React.Component{
+        render(){
+          return(
+            <h1 class = "green">Green</h1>
+          )
+        }
+      }
+
+      class Blue extends React.Component{
+        render(){
+          return(
+            <h1 class = "blue">Blue</h1>
+          )
+        }
+      }
+
+      class Indigo extends React.Component{
+        render(){
+          return(
+            <h1 class = "indigo">Indigo</h1>
+          )
+        }
+      }
+
+      class Violet extends React.Component{
+        render(){
+          return(
+            <h1 class = "violet">Violet</h1>
+          )
+        }
+      }
+
+      var destination = document.getElementById("app");
+      // REACT PART
+      ReactDOM.render(
+        // REACT WHAT
+        <ColorSpectrum/>
+        ,
+
+        // REACT WHERE - div id of the app
+        destination
+      );
+    </script>
+
+  </body>
+
+</html>
