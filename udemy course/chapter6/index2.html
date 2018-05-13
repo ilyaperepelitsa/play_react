@@ -34,7 +34,7 @@
       // }
 
       function FamilyList(props){
-        var siblings = siblings.filter(function(person){
+        var siblings = props.siblings.filter(function(person){
           return person.female;
         });
         return(<div>
