@@ -17,11 +17,11 @@
     <script type = "text/babel">
 
       class ReactClass extends React.Component{
-        getInitialState: function(){
-          return {
-            isHidden: false
-          };
-        },
+        constructor(props) {
+    super(props);
+    this.state = {date: new Date()};
+  }
+
 
         render(){
           if (this.props.isHidden){
