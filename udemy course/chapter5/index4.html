@@ -32,13 +32,17 @@
       }
     }
 
-    
+
 
       var destination = document.getElementById("app");
       // REACT PART
       ReactDOM.render(
         // REACT WHAT
-        <ColorSpectrum/>
+        <div>
+          <PersonGreeting color = "tomato" name = "Jimmy"/>
+          <PersonGreeting color = "green" name = "Sarah"/>
+          <PersonGreeting color = "blue" name = "Bobby"/>
+        </div>
         ,
 
         // REACT WHERE - div id of the app
