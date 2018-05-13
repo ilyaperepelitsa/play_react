@@ -27,7 +27,7 @@
       return(
         <div class = "friendly">
           <Avatar/>
-          <UserName/>
+          <UserName name = ""/>
           <GetConnected/>
         </div>
       );
@@ -48,7 +48,7 @@
 
     function UserName(){
       return(
-        <h1 class = "name">{props.}</h1>
+        <h1 class = "name">{props.name}</h1>
       );
     }
 
