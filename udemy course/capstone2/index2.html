@@ -26,7 +26,7 @@
     function FriendLy(person){
       return(
         <div class = "friendly">
-          <Avatar/>
+          <Avatar img_url/>
           <UserName name = {person.name}/>
           <GetConnected/>
         </div>
@@ -40,7 +40,7 @@
       return(
         <img
         class = "avatar"
-        src = {props.img_url} alt = "profile pic" />
+        src = {image_props.img_url} alt = "profile pic" />
       );
     }
 
