@@ -36,10 +36,8 @@
       function FamilyList(props){
         return(<div>
           {props.siblings.map(function(person){
-            return <div key = {person.id}> {person.name}
-            </div>
-          })}
-        </div>)
+            return <div key = {person.id}> {person.name} </div>
+          })} </div>)
       }
       var siblings = [{id: 1, name: "Chris", female: false},
                       {id: 2, name: "Jeff", female: false},
