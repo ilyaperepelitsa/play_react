@@ -21,17 +21,17 @@
 
     <script type = "text/babel">
 
-      function FamilyList(props){
-        var siblings = props.siblings;
-
-        var siblingsListItem = siblings.map(function(person){
-          return <div key = {person}> {person.name} </div>
-        });
-        return(<div>
-        {siblingsListItem}
-        </div>
-        );
-      }
+      // function FamilyList(props){
+      //   var siblings = props.siblings;
+      //
+      //   var siblingsListItem = siblings.map(function(person){
+      //     return <div key = {person.id}> {person.name} </div>
+      //   });
+      //   return(<div>
+      //   {siblingsListItem}
+      //   </div>
+      //   );
+      // }
 
       var siblings = [{id: 1, name: "Chris", female: false},
                       {id: 2, name: "Jeff", female: false},
