@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src = "https://unpkg.com/react@16.0.0/umd/react.production.min.js"></script>
+    <script src = "https://unpkg.com/react-dom@16.0.0/umd/react-dom.production.min.js"></script>
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.38/browser.js"></script>
+    <!-- <script src = "https://cdnjs.cloudflare.com/ajax/libs/babel-core/6.1.19/browser.js"></script> -->
+    <link rel = "stylesheet" href = "main.css">
+    <link rel = "stylesheet" href = "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+    <meta charset = "UTF-8">
+    <title>FriendLy</title>
+  </head>
+
+  <body>
+    <div id = "app">
+      React hasn't rendered
+    </div>
+
+    <script type = "text/babel">
+
+    // Friendly complex
+
+    function FriendLy(person){
+      return(
+        <div class = "friendly">
+          <Avatar img_url = {person.img_url}/>
+          <UserName name = {person.name}/>
+          <GetConnected/>
+        </div>
+      );
+    }
+
+
+    // Avatar
+
+    function Avatar(image_props){
+      return(
+        <img
+        class = "avatar"
+        src = {image_props.img_url} alt = "profile pic" />
+      );
+    }
+
+    // UserName
+
+    function UserName(props){
+      return(
+        <h1 class = "name">{props.name}</h1>
+      );
+    }
+
+    // GetConnected
+
+    function GetConnected(){
+      return(
+        <div class = "getconnected">
+          <Like/>
+          <Share/>
+          <Add/>
+        </div>
+      );
+    }
+      // Like
+      function Like(){
+        return(
+          <i class="fa fa-heart" id = "icon"></i>
+        );
+      }
+
+
+      // Share
+      function Share(){
+        return(
+          <i class="fa fa-share-alt" id = "icon"></i>
+        );
+      }
+
+      // Add comment
+      function Add(){
+        return(
+          <i class="fa fa-user-plus" id = "icon"></i>
+        );
+      }
+
+
+      var destination = document.getElementById("app");
+      // REACT PART
+      ReactDOM.render(
+        // REACT WHAT
+        <div>
+          <FriendLy name= "Ilya Perepelitsa" img_url = "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/14570255_10210764687382713_5191654326197987792_n.jpg?_nc_cat=0&oh=2caccfa978914293310f164c47528552&oe=5B7DD879"/>
+          <FriendLy name= "Nigel Gillis" img_url = "https://scontent-lga3-1.xx.fbcdn.net/v/t31.0-8/23847406_10209069712414395_2347931250061811329_o.jpg?_nc_cat=0&oh=e36a2359376790e49e1fc953c34df684&oe=5B4FA4E7"/>
+          <FriendLy name= "Regan Yeung" img_url = "https://scontent-lga3-1.xx.fbcdn.net/v/t31.0-8/14500314_10209106264466825_3937237603696768601_o.jpg?_nc_cat=0&oh=bea8b48c53bbe78582eeb15cf117cbbe&oe=5B4FC2C6"/>
+
+        </div>
+
+        ,
+
+        // REACT WHERE - div id of the app
+        destination
+      );
+    </script>
+
+  </body>
+
+</html>
