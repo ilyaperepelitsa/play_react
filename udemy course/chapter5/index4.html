@@ -22,7 +22,7 @@
         var colorstyle = {
           height: 30,
           width: 100,
-          backgroundColor: this.props.color
+          backgroundColor: this.props.name
         }
         return(
           <div style = {colorstyle}>
@@ -39,9 +39,9 @@
       ReactDOM.render(
         // REACT WHAT
         <div>
-          <PersonGreeting color = "tomato" name = "Jimmy"/>
-          <PersonGreeting color = "green" name = "Sarah"/>
-          <PersonGreeting color = "blue" name = "Bobby"/>
+          <Color color = "tomato" name = "Jimmy"/>
+          <Color color = "green" name = "Sarah"/>
+          <Color color = "blue" name = "Bobby"/>
         </div>
         ,
 
