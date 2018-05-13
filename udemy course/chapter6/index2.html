@@ -38,7 +38,7 @@
           return person.female;
         });
         return(<div>
-          {props.siblings.map(function(person){
+          {siblings.map(function(person){
             return <div key = {person.id}> {person.name} </div>
           })} </div>)
       }
