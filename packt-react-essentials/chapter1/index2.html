@@ -19,7 +19,7 @@
       class ReactClass extends React.Component{
         constructor(props) {
           super(props);
-          this.state = {isHidden: new Date()};
+          this.state = {isHidden: this.props.isHidden};
         }
 
 
