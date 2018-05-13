@@ -31,11 +31,11 @@
         width: "200",
         padding: "0",
         backgroundColor: "#FFF",
-        WebkitFilter: "drop-shadow(0px 0px 5px #555)",
+        webkitFilter: "drop-shadow(0px 0px 5px #555)",
         filter: "drop-shadow(0px 0px 5px #555)"
       }
       return(
-        <div style = {friendlyStyle}>
+        <div style = {}>
           <Avatar/>
           <UserName/>
           <GetConnected/>
@@ -47,17 +47,6 @@
     // Avatar
 
     function Avatar(){
-      var friendlyStyle = {
-        display: "inline-block",
-        margin: "20",
-        height: "300",
-        width: "200",
-        padding: "0",
-        backgroundColor: "#FFF",
-        WebkitFilter: "drop-shadow(0px 0px 5px #555)",
-        filter: "drop-shadow(0px 0px 5px #555)"
-      }
-      
       return(
         <img
         class = "avatar"
