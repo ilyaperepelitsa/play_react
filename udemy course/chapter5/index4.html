@@ -17,19 +17,20 @@
 
     <script type = "text/babel">
 
-      var ColorSpectrum = function(){
+    class PersonGreeting extends React.Component{
+      render(){
+        var personStyle = {
+          height: 30,
+          width: 300,
+          backgroundColor: this.props.color
+        }
         return(
-          <div>
-            <Red/>
-            <Orange/>
-            <Yellow/>
-            <Green/>
-            <Blue/>
-            <Indigo/>
-            <Violet/>
+          <div class = "personStyle" style = {personStyle}>
+            Hello, {this.props.name}!
           </div>
         );
       }
+    }
 
       class Red extends React.Component{
         render(){
