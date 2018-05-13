@@ -36,8 +36,7 @@
       function FamilyList(props){
         return(<div>
           {props.siblings.map(function(person){
-            return <div key = {person.id}>
-              {pe}
+            return <div key = {person.id}> {person.name}
             </div>
           })}
         </div>)
