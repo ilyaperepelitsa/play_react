@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src = "https://unpkg.com/react@16.0.0/umd/react.production.min.js"></script>
+    <script src = "https://unpkg.com/react-dom@16.0.0/umd/react-dom.production.min.js"></script>
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.38/browser.js"></script>
+    <!-- <script src = "https://cdnjs.cloudflare.com/ajax/libs/babel-core/6.1.19/browser.js"></script> -->
+    <!-- <link rel = "stylesheet" href = "main.css"> -->
+    <link rel = "stylesheet" href = "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+    <meta charset = "UTF-8">
+    <title>FriendLy</title>
+  </head>
+
+  <body>
+    <div id = "app">
+      React hasn't rendered
+    </div>
+
+    <script type = "text/babel">
+
+      // function FamilyList(props){
+      //   var siblings = props.siblings;
+      //
+      //   var siblingsListItem = siblings.map(function(person){
+      //     return <div key = {person.id}> {person.name} </div>
+      //   });
+      //   return(<div>
+      //   {siblingsListItem}
+      //   </div>
+      //   );
+      // }
+
+      function FamilyList(props){
+        
+        return(<div>
+          {props.siblings.map(function(person){
+            return <div key = {person.id}> {person.name} </div>
+          })} </div>)
+      }
+      var siblings = [{id: 1, name: "Chris", female: false},
+                      {id: 2, name: "Jeff", female: false},
+                      {id: 3, name: "Hulie", female: true},
+                      {id: 4, name: "Jessica", female: true}]
+
+      var destination = document.getElementById("app");
+      // REACT PART
+      ReactDOM.render(
+        // REACT WHAT
+        <FamilyList siblings={siblings}/>
+        ,
+
+        // REACT WHERE - div id of the app
+        destination
+      );
+    </script>
+
+  </body>
+
+</html>
