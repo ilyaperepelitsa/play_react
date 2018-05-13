@@ -36,7 +36,9 @@
       function FamilyList(props){
         var siblings = props.siblings;
         return(<div>
-          {props.siblings.map(function(person){
+          {props.siblings.filter(function(person){
+            return person.female;
+          }).map(function(person){
             return <div key = {person.id}> {person.name} </div>
           })} </div>)
       }
