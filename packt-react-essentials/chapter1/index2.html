@@ -31,6 +31,11 @@
             }));
         }
 
+        handleClick() {
+        	this.setState((prevState) => ({
+          	   clicks: prevState.clicks + 1
+            }));
+        }
 
         render(){
           if (this.state.isHidden){
@@ -39,7 +44,7 @@
             // return <h1 className = "header">React Componen {this.props.pew}, {this.state.some_num}</h1>
             return <div>
               <h1 onClick = {this.handleClick}>React Component clicks {this.state.clicks}</h1>
-              <bu
+              <button></button>
             </div>
 
           }
