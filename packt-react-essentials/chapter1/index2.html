@@ -26,9 +26,9 @@
         }
 
         handleClick() {
-          this.setState(prevState => ({
-            clicks: !prevState.clicks + 1
-          }));
+    	this.setState((prevState) => ({
+      	   clicks: prevState.clicks + 1
+        }));
         }
 
 
