@@ -1,11 +1,10 @@
-import React from 'react'
-import { render } from 'react-dom'
-import Menu from './components/Menu'
-import data from '../data/recipes'
+const Ingredient = ({ amount, measurement, name }) =>
+    <li>
+        <span className="amount">{amount} </span>
+        <span className="measurement">{measurement} </span>
+        <span className="name">{name}</span>
+    </li>
 
-window.React = React
+Ingredient.displayName = 'Ingredient'
 
-render(
-    <Menu recipes={data} />,
-    document.getElementById("react-container")
-)
+export default Ingredient
