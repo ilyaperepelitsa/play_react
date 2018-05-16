@@ -3,7 +3,7 @@ module.exports = {
     output: {
         path: "./dist/assets/",
         filename: "bundle.js"
-}, module: {
+        }, module: {
 rules: [ {
                 test: /\.js$/,
                 exclude: /(node_modules)/,
