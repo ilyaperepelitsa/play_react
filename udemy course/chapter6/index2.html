@@ -38,7 +38,7 @@
         return(<div>
           <h1>Female Sibblings</h1>
           {props.siblings.filter(person => {person.female;
-          }).map(person){
+          }).map(person => {
             return <div key = {person.id}> {person.name} </div>
           })}
           <hr />
