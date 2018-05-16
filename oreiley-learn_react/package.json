@@ -8,8 +8,7 @@
     "prestart": "npm run build",
     "start": "opener dist/index.html"
   },
-  "repository": {
-  },
+  "repository": {},
   "keywords": [
     "Learning",
     "React",
