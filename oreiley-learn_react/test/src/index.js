@@ -7,7 +7,7 @@ window.React = React
 
 render(
     <Menu recipes={data} />,
-    document.getElementById("react-root")
+    document.getElementById("root")
 )
 
 import registerServiceWorker from './registerServiceWorker';
