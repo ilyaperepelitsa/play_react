@@ -38,9 +38,7 @@
         return(<div>
           <h1>Female Sibblings</h1>
           {props.siblings.filter(function(person){
-            return <p> person.female
-
-            </p>;
+            return <p> person.female </p>;
           }).map(function(person){
             return <div key = {person.id}> {person.name} </div>
           })}
