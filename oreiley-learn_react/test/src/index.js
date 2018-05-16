@@ -2,7 +2,7 @@ import React from 'react'
 import { render } from 'react-dom'
 import Menu from './components/Menu'
 import data from './data/recipes'
-
+import registerServiceWorker from './registerServiceWorker';
 window.React = React
 
 render(
@@ -10,7 +10,7 @@ render(
     document.getElementById("root")
 )
 
-import registerServiceWorker from './registerServiceWorker';
+
 
 // ReactDOM.render(<App />, document.getElementById('root'));
 registerServiceWorker();
