@@ -43,6 +43,14 @@
             return <div key = {person.id}> {person.name} </div>
           })}
           <hr />
+
+          <h1>Female Sibblings</h1>
+          {props.siblings.filter(function(person){
+            return person.female;
+          }).map(function(person){
+            return <div key = {person.id}> {person.name} </div>
+          })}
+
           </div>)
       }
       var siblings = [{id: 1, name: "Chris", female: false},
