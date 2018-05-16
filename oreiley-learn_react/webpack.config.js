@@ -3,9 +3,9 @@ module.exports = {
     output: {
         path: "dist/assets",
         filename: "bundle.js"
-      }, module: {
-      rules: [ {
-                      test: /\.js$/,
+}, module: {
+rules: [ {
+                test: /\.js$/,
                 exclude: /(node_modules)/,
                 loader: ['babel-loader'],
                 query: {
