@@ -45,7 +45,7 @@
           <h1>Male Sibblings</h1>
           {props.siblings.
             filter(person => !person.female).
-            map(function(person => <div key = {person.id}> {person.name} </div>
+            map(person => <div key = {person.id}> {person.name} </div>
           )}
 
           </div>)
