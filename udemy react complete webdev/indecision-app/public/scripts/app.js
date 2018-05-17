@@ -34,13 +34,13 @@ var template2 = React.createElement(
     "p",
     null,
     "Age: ",
-    usern.age
+    user.age
   ),
   React.createElement(
     "p",
     null,
     "Location: ",
-    userLocation
+    user.location
   )
 );
 var appRoot = document.getElementById("app");
