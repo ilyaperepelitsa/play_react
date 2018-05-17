@@ -18,12 +18,12 @@ var userLocation = "New York, NY"
 var user = {
   name: "Ilya Perepelitsa",
   age: 29,
-  // location: "New York, NY"
+  location: "New York, NY"
 }
 
 function getLocation(location){
   if (location){
-    return location;
+    return <p?location;
   } else{
   return "Unknwon";
   }
