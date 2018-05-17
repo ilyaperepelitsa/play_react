@@ -21,6 +21,44 @@
 
     <script type = "text/babel">
 
+    function UserName(props){
+      return(
+        <h1 class = "name">{props.name}</h1>
+      );
+    }
+
+    // GetConnected
+
+    function GetConnected(){
+      return(
+        <div class = "getconnected">
+          <Like/>
+          <Share/>
+          <Add/>
+        </div>
+      );
+    }
+      // Like
+      function Like(){
+        return(
+          <i class="fa fa-heart" id = "icon"></i>
+        );
+      }
+
+
+      // Share
+      function Share(){
+        return(
+          <i class="fa fa-share-alt" id = "icon"></i>
+        );
+      }
+
+      // Add comment
+      function Add(){
+        return(
+          <i class="fa fa-user-plus" id = "icon"></i>
+        );
+      }
     // Friendly complex
 
     class Profiles extends React.Component{
@@ -32,7 +70,7 @@
 
 
 
-            
+
               <img className = "avatar" src = {person.img_url}/>
               <h1 className = "name">{person.name}</h1>
               <i class="fa fa-heart" id = "icon"></i>
