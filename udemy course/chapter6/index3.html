@@ -21,13 +21,13 @@
 
     <script type = "text/babel">
       class FamilyList extends React.Component{
-        render(
+        render( =>{
           <div>
             {this.props.siblings.
               map(person => <div key = {person.id}>
                 {person.name}
               </div>)}
-          </div>)
+          </div>})
         }
 
 
