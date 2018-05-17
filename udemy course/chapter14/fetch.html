@@ -48,7 +48,13 @@
       render() {
         let items = this.state.items;
         console.log(items);
-
+        return(
+          <div>
+            {items.map(function(item) {
+              return <h4 key={item.name}>{item.name} has an eye color of {item.eye_color}</h4>
+            })}
+          </div>
+        );
       }
     }
     ReactDOM.render(
