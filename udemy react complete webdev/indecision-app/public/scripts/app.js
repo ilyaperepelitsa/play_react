@@ -16,7 +16,8 @@ var template = React.createElement(
             "p",
             null,
             " Some paragraph"
-      )
+      ),
+      "c45"
 );
 var appRoot = document.getElementById("app");
 
