@@ -24,7 +24,7 @@
         constructor(props){
           super(props);
           this.state = {
-            votes : 0
+            val : 0
           };
           this.add = this.add.bind(this);
           this.subtract = this.subtract.bind(this);
@@ -36,7 +36,7 @@
           }))
         }
 
-        handleSubmit(ev){
+        handleSubmit(event){
           this.setState((prevState)=> ({
             votes: prevState.votes- 1
           }))
