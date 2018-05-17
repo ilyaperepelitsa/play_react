@@ -27,7 +27,7 @@
       render(){
         return(
           this.props.people.
-          map(person => return {
+          map(person => return
             <div>
               <img className = "avatar" src = {person.img_url}/>
               <h1 className = "name">{person.name}</h1>
@@ -35,7 +35,7 @@
               <i class="fa fa-share-alt" id = "icon"></i>
               <i class="fa fa-user-plus" id = "icon"></i>
             </div>
-          })
+          )
         )
       }
     }
