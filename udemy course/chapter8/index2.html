@@ -21,6 +21,15 @@
 
     <script type = "text/babel">
 
+    function Avatar(image_props){
+      return(
+        <img
+        class = "avatar"
+        src = {image_props.img_url} alt = "profile pic" />
+      );
+    }
+
+
     function UserName(props){
       return(
         <h1 class = "name">{props.name}</h1>
