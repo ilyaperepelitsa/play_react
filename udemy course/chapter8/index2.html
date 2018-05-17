@@ -96,12 +96,23 @@
 
     class Profiles extends React.Component{
 
-      
+
 
       render(){
         return(
           this.props.people.
           map(person =>
+            var friendlyStyle = {
+                display: 'inline-block',
+                margin: 20,
+                height: 300,
+                width: 200,
+                padding: 0,
+                backgroundColor: "#FFF",
+                WebkitFilter: "drop-shadow(0px 0px 5px #555)",
+                filter: "drop-shadow(0px 0px 5px #555)"
+              };
+              
             <div style={friendlyStyle}>
               <Avatar img_url = {person.img_url}/>
               <UserName name = {person.name}/>
