@@ -100,7 +100,7 @@
           this.props.people.
           filter(person=> person.gender == "female").
           map((person, i) =>
-            <div key = {}style = {friendlyStyle}>
+            <div key = {i} style = {friendlyStyle}>
               <Avatar img_url = {person.img_url}/>
               <UserName name = {person.name}/>
               <GetConnected/>
