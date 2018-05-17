@@ -27,12 +27,12 @@
             votes : 0
           };
           this.add = this.add.bind(this);
-          this.handleHide = this.handleHide.bind(this);
+          this.subtract = this.subtract.bind(this);
         }
 
         add(){
           this.setState((prevState)=> {
-            votes: prevState.votes++
+            votes: this.prevState.votes++
           })
         }
 
