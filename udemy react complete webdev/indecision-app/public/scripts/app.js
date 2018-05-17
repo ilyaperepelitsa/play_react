@@ -28,7 +28,8 @@ function getLocation(location) {
     return React.createElement(
       "p",
       null,
-      "Location: location"
+      "Location: ",
+      location
     );
   } else {
     return "Unknwon";
@@ -52,8 +53,7 @@ var template2 = React.createElement(
   React.createElement(
     "p",
     null,
-    "Location: ",
-    getLocation(user.location)
+    "Location: "
   )
 );
 var appRoot = document.getElementById("app");
