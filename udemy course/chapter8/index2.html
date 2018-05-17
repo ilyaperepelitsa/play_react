@@ -27,7 +27,8 @@
       render(){
         return(
           this.props.people.
-          filter(person => person.gender == "female")
+          filter(person => person.gender == "female").
+          map(pe)
         )
       }
     }
