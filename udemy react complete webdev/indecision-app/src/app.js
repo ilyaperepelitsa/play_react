@@ -18,11 +18,11 @@ var userLocation = "New York, NY"
 var user = {
   name: "Ilya Perepelitsa",
   age: 29,
-  location: "New York"
+  location: "New York, NY"
 }
 var template2 =
     <div>
-      <h1>{userName}</h1>
+      <h1>{user.name}</h1>
       <p>Age: {userAge}</p>
       <p>Location: {userLocation}</p>
     </div>
