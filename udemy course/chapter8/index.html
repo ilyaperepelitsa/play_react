@@ -1,1 +1,59 @@
-  
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src = "https://unpkg.com/react@16.0.0/umd/react.production.min.js"></script>
+    <script src = "https://unpkg.com/react-dom@16.0.0/umd/react-dom.production.min.js"></script>
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.38/browser.js"></script>
+    <!-- <script src = "https://cdnjs.cloudflare.com/ajax/libs/babel-core/6.1.19/browser.js"></script> -->
+    <link rel = "stylesheet" href = "main.css">
+    <meta charset = "UTF-8">
+    <title>Styling components</title>
+  </head>
+
+  <body>
+    <div id = "app">
+      React hasn't rendered
+    </div>
+
+    <script type = "text/babel">
+
+    class Color extends React.Component{
+      render(){
+        var colorstyle = {
+          height: 30,
+          // width: 100,
+          backgroundColor: this.props.name.toLowerCase()
+        }
+        return(
+          <div style = {colorstyle}>
+            <q>{this.props.name}</q> is the color definitely
+          </div>
+        );
+      }
+    }
+
+
+
+      var destination = document.getElementById("app");
+      // REACT PART
+      ReactDOM.render(
+        // REACT WHAT
+        <div>
+          <Color name = "Red"/>
+          <Color name = "Orange"/>
+          <Color name = "Yellow"/>
+          <Color name = "Green"/>
+          <Color name = "Blue"/>
+          <Color name = "Indigo"/>
+          <Color name = "Violet"/>
+        </div>
+        ,
+
+        // REACT WHERE - div id of the app
+        destination
+      );
+    </script>
+
+  </body>
+
+</html>
