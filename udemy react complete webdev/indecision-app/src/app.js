@@ -20,7 +20,7 @@ var user = {
   age: 29,
   location: "New York, NY"
 }
-
+function get
 
 var template2 =
     <div>
