@@ -24,11 +24,11 @@ var user = {
 };
 
 function getLocation() {
-  // if location{
-  //   return location;
-  // } else{
-  // return "Unknwon";
-  // }
+  if (location) {
+    return location;
+  } else {
+    return "Unknwon";
+  }
 }
 
 var template2 = React.createElement(
