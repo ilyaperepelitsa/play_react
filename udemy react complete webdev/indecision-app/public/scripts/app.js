@@ -2,4 +2,4 @@ console.log("App.js is running")
 
 var tempalte = <p>This is JSX</p>
 
-ReactDOM.render(template, document.gel)
+ReactDOM.render(template, document.getElementById("a"))
