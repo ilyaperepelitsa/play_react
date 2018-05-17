@@ -31,9 +31,9 @@
         }
 
         add(){
-          this.setState((prevState)=> (){
+          this.setState((prevState)=> ({
             votes: prevState.votes++
-          })
+          }))
         }
 
         subtract(){
