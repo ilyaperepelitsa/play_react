@@ -106,12 +106,12 @@
           WebkitFilter: "drop-shadow(0px 0px 5px #555)",
           filter: "drop-shadow(0px 0px 5px #555)"
         };
-        
+
       render(){
         return(
           this.props.people.
           map(person =>
-            <div className = "friendly">
+            <div style={friendlyStyle}>
               <Avatar img_url = {person.img_url}/>
               <UserName name = {person.name}/>
               <GetConnected/>
