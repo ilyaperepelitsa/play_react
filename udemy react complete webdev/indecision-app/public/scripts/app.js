@@ -34,7 +34,7 @@ var template2 = React.createElement(
     "p",
     null,
     "Age: ",
-    userAge
+    usern.age
   ),
   React.createElement(
     "p",
