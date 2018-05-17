@@ -20,6 +20,7 @@ var user = {
   age: 29,
   location: "New York, NY"
 }
+
 function getLocation(){
   if (location){
     return location;
@@ -27,7 +28,6 @@ function getLocation(){
   return "Unknwon";
   }
 }
-
 
 var template2 =
     <div>
