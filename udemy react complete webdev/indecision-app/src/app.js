@@ -32,7 +32,7 @@ function getLocation(){
   // return "Unknwon";
   // }
 }
-getLocation()
+
 
 var template2 =
     <div>
