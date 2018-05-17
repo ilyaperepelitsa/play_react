@@ -18,7 +18,7 @@ var userAge = 29;
 var userLocation = "New York, NY";
 
 var user = {
-  name: "Ilya Perepelitsa",
+  // name: "Ilya Perepelitsa",
   age: 29,
   location: "New York, NY"
 };
@@ -40,7 +40,7 @@ var template2 = React.createElement(
   React.createElement(
     "h1",
     null,
-    user.name ? user.name : "A"
+    user.name ? user.name : "Anonymous"
   ),
   React.createElement(
     "p",
