@@ -1,0 +1,13 @@
+{
+  "name": "indecision-app",
+  "version": "1.0.0",
+  "description": "tutorial thingy",
+  "main": "index.js",
+  "author": "Ilya Perepelitsa",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1"
+  }
+}
