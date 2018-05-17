@@ -28,7 +28,7 @@ var template2 =
     <div>
       <h1>{user.name}</h1>
       <p>Age: {user.age}</p>
-      <p>Location: {getLo}</p>
+      <p>Location: {getLocation(user)}</p>
     </div>
 var appRoot = document.getElementById("app");
 

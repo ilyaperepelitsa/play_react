@@ -44,7 +44,7 @@ var template2 = React.createElement(
     "p",
     null,
     "Location: ",
-    getLo
+    getLocation(user)
   )
 );
 var appRoot = document.getElementById("app");
