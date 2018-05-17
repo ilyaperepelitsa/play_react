@@ -1,3 +1,3 @@
 console.log("App.js is running")
 
-var tempalte = 
+var tempalte = <p>
