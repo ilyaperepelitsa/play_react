@@ -1,3 +1,5 @@
 console.log("App.js is running")
 
-var tempalte = <p>Th</p>
+var tempalte = <p>This is JSX</p>
+
+React
