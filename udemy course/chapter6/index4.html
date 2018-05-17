@@ -25,7 +25,7 @@
           return(
           <div>
             {this.props.siblings.
-              filter(person => person.femal)
+              filter(person => person.female).
               map(person => <div key = {person.id}>
                 {person.name}
               </div>)}
