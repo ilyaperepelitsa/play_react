@@ -4,7 +4,7 @@ console.log("App.js is running")
 
 var template = <div>
       <h1>This is JSX. Does this change?</h1>
-      <p> Some weird ass ap
+      <p> Some par
               </div>
 var appRoot = document.getElementById("app");
 
