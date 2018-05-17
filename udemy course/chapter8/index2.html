@@ -5,7 +5,7 @@
     <script src = "https://unpkg.com/react-dom@16.0.0/umd/react-dom.production.min.js"></script>
     <script src = "https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.38/browser.js"></script>
     <!-- <script src = "https://cdnjs.cloudflare.com/ajax/libs/babel-core/6.1.19/browser.js"></script> -->
-    <!-- <link rel = "stylesheet" href = "main.css"> -->
+    <link rel = "stylesheet" href = "main.css">
     <link rel = "stylesheet" href = "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
@@ -21,53 +21,53 @@
 
     <script type = "text/babel">
 
-    // function Avatar(props){
-    //   return(
-    //     <img
-    //     class = "avatar"
-    //     src = {props} alt = "profile pic" />
-    //   );
-    // }
-    //
-    //
-    // function UserName(props){
-    //   return(
-    //     <h1 class = "name">{props}</h1>
-    //   );
-    // }
-    //
-    // // GetConnected
-    //
-    // function GetConnected(){
-    //   return(
-    //     <div className = "getconnected">
-    //       <Like/>
-    //       <Share/>
-    //       <Add/>
-    //     </div>
-    //   );
-    // }
-    //   // Like
-    //   function Like(){
-    //     return(
-    //       <i className="fa fa-heart" id = "icon"></i>
-    //     );
-    //   }
-    //
-    //
-    //   // Share
-    //   function Share(){
-    //     return(
-    //       <i className="fa fa-share-alt" id = "icon"></i>
-    //     );
-    //   }
-    //
-    //   // Add comment
-    //   function Add(){
-    //     return(
-    //       <i className="fa fa-user-plus" id = "icon"></i>
-    //     );
-    //   }
+    function Avatar(props){
+      return(
+        <img
+        class = "avatar"
+        src = {props} alt = "profile pic" />
+      );
+    }
+
+
+    function UserName(props){
+      return(
+        <h1 class = "name">{props}</h1>
+      );
+    }
+
+    // GetConnected
+
+    function GetConnected(){
+      return(
+        <div className = "getconnected">
+          <Like/>
+          <Share/>
+          <Add/>
+        </div>
+      );
+    }
+      // Like
+      function Like(){
+        return(
+          <i className="fa fa-heart" id = "icon"></i>
+        );
+      }
+
+
+      // Share
+      function Share(){
+        return(
+          <i className="fa fa-share-alt" id = "icon"></i>
+        );
+      }
+
+      // Add comment
+      function Add(){
+        return(
+          <i className="fa fa-user-plus" id = "icon"></i>
+        );
+      }
     // Friendly complex
 
     class Profiles extends React.Component{
@@ -76,14 +76,17 @@
           this.props.people.
           map(person =>
             <div className = "friendly">
-              
+              <Avatar props = {person.img_url}/>
+              <UserName props = {person.name}/>
+              <GetConnected/>
 
 
-              <img className = "avatar" src = {person.img_url}/>
-              <h1 className = "name">{person.name}</h1>
-              <i class="fa fa-heart" id = "icon"></i>
-              <i class="fa fa-share-alt" id = "icon"></i>
-              <i class="fa fa-user-plus" id = "icon"></i>
+
+              // <img className = "avatar" src = {person.img_url}/>
+              // <h1 className = "name">{person.name}</h1>
+              // <i class="fa fa-heart" id = "icon"></i>
+              // <i class="fa fa-share-alt" id = "icon"></i>
+              // <i class="fa fa-user-plus" id = "icon"></i>
             </div>
           )
         )
