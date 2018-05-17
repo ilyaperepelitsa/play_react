@@ -30,6 +30,8 @@ function getLocation() {
   }
 }
 
+c;
+
 var template2 = React.createElement(
   "div",
   null,
