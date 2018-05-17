@@ -31,7 +31,7 @@ function getLocation(location){
 var template2 =
     <div>
       <h1>{user.name ? user.name : "Anonymous"}</h1>
-      {user.age >= 18 && <p>Age: {}}
+      {user.age >= 18 && <p>Age: {user.age}}
       {getLocation(user.location)}
     </div>
 var appRoot = document.getElementById("app");
