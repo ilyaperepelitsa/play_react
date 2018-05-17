@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src = "https://unpkg.com/react@16.0.0/umd/react.production.min.js"></script>
+    <script src = "https://unpkg.com/react-dom@16.0.0/umd/react-dom.production.min.js"></script>
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.38/browser.js"></script>
+    <!-- <script src = "https://cdnjs.cloudflare.com/ajax/libs/babel-core/6.1.19/browser.js"></script> -->
+    <link rel = "stylesheet" href = "main.css">
+    <link rel = "stylesheet" href = "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+    <meta charset = "UTF-8">
+    <title>FriendLy</title>
+  </head>
+
+  <body>
+    <div id = "app">
+      React hasn't rendered
+    </div>
+
+    <script type = "text/babel">
+
+    function Avatar(props){
+      var avatarStyle = {
+        marginLeft: 27,
+        marginTop: 20,
+        width: 150,
+        height: 150,
+        borderRadius: "50%"
+      }
+
+      return(
+        <img
+        style={avatarStyle}
+        src = {props.img_url} alt = "profile pic" />
+      );
+    }
+
+
+    function UserName(props){
+      var nameStyle = {
+        fontSize: 24,
+        textAlign: "center",
+        fontFamily: "Arial, Helvetica, sans-serif",
+        margin: 20
+      }
+
+      return(
+        <h1 style={nameStyle}>{props.name}</h1>
+      );
+    }
+
+    // GetConnected
+
+    function GetConnected(){
+      var getConnectedStyle = {
+        textAlign: "center"
+      }
+
+      return(
+        <div style={getConnectedStyle}>
+          <Like/>
+          <Share/>
+          <Add/>
+        </div>
+      );
+    }
+      // Like
+
+      var iconStyle = {
+        margin: 20
+      }
+
+      function Like(){
+        return(
+          <i className="fa fa-heart" style={iconStyle}></i>
+        );
+      }
+
+
+      // Share
+      function Share(){
+        return(
+          <i className="fa fa-share-alt"  style={iconStyle}></i>
+        );
+      }
+
+      // Add comment
+      function Add(){
+        return(
+          <i className="fa fa-user-plus" style={iconStyle}></i>
+        );
+      }
+    // Friendly complex
+
+    class Profiles extends React.Component{
+      render(){
+        return(
+          this.props.people.
+          filter(person=> person.gender == "female").
+          map((person, i) =>
+            <div key = {i} style = {friendlyStyle}>
+              <Avatar img_url = {person.img_url}/>
+              <UserName name = {person.name}/>
+              <GetConnected/>
+            </div>
+          )
+        )
+      }
+    }
+
+    var friendlyStyle = {
+        display: 'inline-block',
+        margin: 20,
+        height: 300,
+        width: 200,
+        padding: 0,
+        backgroundColor: "#FFF",
+        WebkitFilter: "drop-shadow(0px 0px 5px #555)",
+        filter: "drop-shadow(0px 0px 5px #555)"
+      };
+
+    // Avatar
+    var people = [{name: "Ilya Perepelitsa", gender : "male", img_url : "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/14570255_10210764687382713_5191654326197987792_n.jpg?_nc_cat=0&oh=2caccfa978914293310f164c47528552&oe=5B7DD879"},
+              {name: "Dmytro Glynyanyy", gender : "male", img_url : "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/11951264_887034954718708_6684102367416033092_n.jpg?_nc_cat=0&oh=15a5dba9ae6adbce0a9f542f6b44a9e6&oe=5B91CC20"},
+              {name: "Nigel Gillis", gender : "male", img_url : "https://scontent-lga3-1.xx.fbcdn.net/v/t31.0-8/23847406_10209069712414395_2347931250061811329_o.jpg?_nc_cat=0&oh=e36a2359376790e49e1fc953c34df684&oe=5B4FA4E7"},
+              {name: "Аня Айрапетова", gender : "female", img_url : "https://scontent-lga3-1.xx.fbcdn.net/v/t31.0-8/27798222_10213059152292453_8911523181397051378_o.jpg?_nc_cat=0&oh=297c25e92242232473858f71775dd22e&oe=5B7E7142"},
+              {name: "Douglas Álvarez", gender : "male", img_url : "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/26166278_10155943899644437_4174241190928242373_n.jpg?_nc_cat=0&oh=eaac16ec37e90ff8dbb79bcf57f5bb9f&oe=5B9272B8"},
+              {name: "Flávia Leite", gender : "female", img_url : "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/26112257_10159953590170691_8554674627130054912_n.jpg?_nc_cat=0&oh=b6efe4dc6ac1c9a66f0d1d3f344aef8a&oe=5B7C3668"},
+              {name: "Денис Коровицкий", gender : "male", img_url : "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/31883021_104940040378279_5651165045766225920_o.jpg?_nc_cat=0&oh=e8d0a63df1eb01253c0bb75982954960&oe=5B922572"},
+              {name: "Vyacheslav Gavrilov", gender : "male", img_url : "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/30743979_1622628061119989_2090378660480548864_o.jpg?_nc_cat=0&oh=87f463b44d4c2851fb13ff317f7faae3&oe=5B4FE58D"},
+              {name: "John Tutty", gender : "male", img_url : "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/11391428_10205800593947771_1069896572729500479_n.jpg?_nc_cat=0&oh=82a268f781a5ee36476930347ab0ff89&oe=5B788716"},
+              {name: "Marcus Wei", gender : "male", img_url : "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/31213777_10156318215034289_7139723761925750784_o.jpg?_nc_cat=0&oh=da1216b690d0d45ef5f4361a14d019bb&oe=5B7AC28D"},
+              {name: "Артём Мячин", gender : "male", img_url : "https://scontent-lga3-1.xx.fbcdn.net/v/t31.0-8/10005922_10203502122615540_732747381_o.jpg?_nc_cat=0&oh=e7beb835465fd3ade11c4e1853017cf8&oe=5B8FAC7E"}
+            ]
+
+      var destination = document.getElementById("app");
+      // REACT PART
+      ReactDOM.render(
+        // REACT WHAT
+        <Profiles people={people}/>
+        ,
+
+        // REACT WHERE - div id of the app
+        destination
+      );
+    </script>
+
+  </body>
+
+</html>
