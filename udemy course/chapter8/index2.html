@@ -99,7 +99,7 @@
 
 
       render(){
-        
+
 
         return(
           this.props.people.
@@ -114,6 +114,16 @@
       }
     }
 
+    var friendlyStyle = {
+        display: 'inline-block',
+        margin: 20,
+        height: 300,
+        width: 200,
+        padding: 0,
+        backgroundColor: "#FFF",
+        WebkitFilter: "drop-shadow(0px 0px 5px #555)",
+        filter: "drop-shadow(0px 0px 5px #555)"
+      };
 
     // Avatar
     var people = [{name: "Ilya Perepelitsa", gender : "male", img_url : "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/14570255_10210764687382713_5191654326197987792_n.jpg?_nc_cat=0&oh=2caccfa978914293310f164c47528552&oe=5B7DD879"},
