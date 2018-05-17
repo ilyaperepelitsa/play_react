@@ -18,10 +18,9 @@
     <script type = "text/babel">
 
     class ColorList extends React.Component{
-
       render(){
         return(
-          this.props.colors.map
+          this.props.colors.map(col)
           <div>
             <q style = {colorstyle}>{this.props.color}</q> is the color definitely
           </div>
