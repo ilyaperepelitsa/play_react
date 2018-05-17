@@ -22,8 +22,10 @@ var user = {
 }
 
 function getLocation(){
-  if 
-  return "pew"
+  if true {
+    return "pew"
+  }
+
   // if (location){
   //   return location;
   // } else{
