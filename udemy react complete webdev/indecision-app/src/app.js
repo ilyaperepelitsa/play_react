@@ -21,7 +21,9 @@ var user = {
   location: "New York, NY"
 }
 function getLocation(){
-  if loca
+  if location{
+    
+  }
   return "Unknwon"
 }
 
