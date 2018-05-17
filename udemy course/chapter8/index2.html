@@ -21,53 +21,53 @@
 
     <script type = "text/babel">
 
-    function Avatar(props){
-      return(
-        <img
-        class = "avatar"
-        src = {props} alt = "profile pic" />
-      );
-    }
-
-
-    function UserName(props){
-      return(
-        <h1 class = "name">{props}</h1>
-      );
-    }
-
-    // GetConnected
-
-    function GetConnected(){
-      return(
-        <div className = "getconnected">
-          <Like/>
-          <Share/>
-          <Add/>
-        </div>
-      );
-    }
-      // Like
-      function Like(){
-        return(
-          <i className="fa fa-heart" id = "icon"></i>
-        );
-      }
-
-
-      // Share
-      function Share(){
-        return(
-          <i className="fa fa-share-alt" id = "icon"></i>
-        );
-      }
-
-      // Add comment
-      function Add(){
-        return(
-          <i className="fa fa-user-plus" id = "icon"></i>
-        );
-      }
+    // function Avatar(props){
+    //   return(
+    //     <img
+    //     class = "avatar"
+    //     src = {props} alt = "profile pic" />
+    //   );
+    // }
+    //
+    //
+    // function UserName(props){
+    //   return(
+    //     <h1 class = "name">{props}</h1>
+    //   );
+    // }
+    //
+    // // GetConnected
+    //
+    // function GetConnected(){
+    //   return(
+    //     <div className = "getconnected">
+    //       <Like/>
+    //       <Share/>
+    //       <Add/>
+    //     </div>
+    //   );
+    // }
+    //   // Like
+    //   function Like(){
+    //     return(
+    //       <i className="fa fa-heart" id = "icon"></i>
+    //     );
+    //   }
+    //
+    //
+    //   // Share
+    //   function Share(){
+    //     return(
+    //       <i className="fa fa-share-alt" id = "icon"></i>
+    //     );
+    //   }
+    //
+    //   // Add comment
+    //   function Add(){
+    //     return(
+    //       <i className="fa fa-user-plus" id = "icon"></i>
+    //     );
+    //   }
     // Friendly complex
 
     class Profiles extends React.Component{
@@ -76,9 +76,9 @@
           this.props.people.
           map(person =>
             <div className = "friendly">
-              <Avatar props = {person.img_url}/>
-              <UserName props = {person.name}/>
-              <GetConnected/>
+              // <Avatar props = {person.img_url}/>
+              // <UserName props = {person.name}/>
+              // <GetConnected/>
 
 
 
