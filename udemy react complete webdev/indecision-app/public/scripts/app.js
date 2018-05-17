@@ -19,11 +19,11 @@ var userLocation = "New York, NY";
 
 var user = {
   name: "Ilya Perepelitsa",
-  age: 29,
-  location: "New York, NY"
+  age: 29
+  // location: "New York, NY"
 };
 
-function getLocation() {
+function getLocation(location) {
   if (location) {
     return location;
   } else {
