@@ -21,7 +21,8 @@
 
     <script type = "text/babel">
       class FamilyList extends React.Component{
-        render( =>
+        render(){
+          return(
           <div>
             {this.props.siblings.
               map(person => <div key = {person.id}>
