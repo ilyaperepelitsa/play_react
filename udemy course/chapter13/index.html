@@ -30,13 +30,13 @@
           this.subtract = this.subtract.bind(this);
         }
 
-        handle(){
+        handleChange(){
           this.setState((prevState)=> ({
             votes: prevState.votes+ 1
           }))
         }
 
-        subtract(){
+        handleSubm(){
           this.setState((prevState)=> ({
             votes: prevState.votes- 1
           }))
