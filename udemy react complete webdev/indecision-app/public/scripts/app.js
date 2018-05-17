@@ -45,7 +45,7 @@ var template2 = React.createElement(
   user.age >= 18 && React.createElement(
     "p",
     null,
-    "Age: ",
+    "Age (grown-): ",
     user.age
   ),
   getLocation(user.location)
