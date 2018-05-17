@@ -27,7 +27,7 @@
       render(){
         return(
           this.props.people.
-          filter(person => person.gender == "female").
+          filter(person => person.gender == "male").
           map(person => return {
             <div>
               <img className = "avatar" src = {person.img_url}/>
