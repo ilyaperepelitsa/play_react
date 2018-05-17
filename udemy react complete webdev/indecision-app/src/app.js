@@ -29,6 +29,7 @@ function getLocation(){
   }
 }
 
+
 var template2 =
     <div>
       <h1>{user.name}</h1>
