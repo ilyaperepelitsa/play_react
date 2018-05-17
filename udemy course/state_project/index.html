@@ -32,13 +32,13 @@
 
         add(){
           this.setState((prevState)=> {
-            votes: this.prevState.votes++
+            votes: prevState.votes++
           })
         }
 
         subtract(){
           this.setState((prevState)=> {
-            votes: prevState.votes--
+            votes: this.prevState.votes--
           })
         }
 
