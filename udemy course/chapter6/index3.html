@@ -31,23 +31,6 @@
         })
 
 
-
-      function FamilyList(props){
-        return(<div>
-          <h1>Female Sibblings</h1>
-          {props.siblings.
-            filter(person => person.female).
-            map(person => <div key = {person.id}> {person.name} </div>)}
-          <hr />
-
-          <h1>Male Sibblings</h1>
-          {props.siblings.
-            filter(person => !person.female).
-            map(person => <div key = {person.id}> {person.name} </div>
-          )}
-
-          </div>)
-      }
       var siblings = [{id: 1, name: "Chris", female: false},
                       {id: 2, name: "Jeff", female: false},
                       {id: 3, name: "Hulie", female: true},
