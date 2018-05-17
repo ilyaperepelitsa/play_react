@@ -22,7 +22,7 @@ var user = {
 }
 
 function getLocation(){
-  // if (location){
+  // if location{
   //   return location;
   // } else{
   // return "Unknwon";
