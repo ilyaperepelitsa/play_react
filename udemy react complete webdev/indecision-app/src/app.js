@@ -2,7 +2,7 @@
 
 console.log("App.js is running")
 
-var template = <p>This is JSX. Does t</p>
+var template = <h1>This is JSX. Does this change?</p>
 var appRoot = document.getElementById("app");
 
 
