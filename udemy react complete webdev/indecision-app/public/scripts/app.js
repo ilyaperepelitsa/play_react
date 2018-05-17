@@ -42,7 +42,7 @@ var template2 = React.createElement(
     null,
     user.name ? user.name : "Anonymous"
   ),
-  user.a,
+  user.age >= 18,
   getLocation(user.location)
 );
 var appRoot = document.getElementById("app");
