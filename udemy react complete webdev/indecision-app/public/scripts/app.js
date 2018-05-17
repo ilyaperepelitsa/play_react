@@ -1,3 +1,5 @@
+live-server public
+
 console.log("App.js is running")
 
 var template = <p>This is JSX</p>
