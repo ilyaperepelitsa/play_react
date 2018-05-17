@@ -37,7 +37,7 @@
         }
 
         handleSubmit(event){
-          this.setState((prevState)=> ({
+          this.setState(=> ({
             votes: prevState.votes- 1
           }))
         }
@@ -51,7 +51,7 @@
                 <input type="text" value={this.state.value} onChange={this.handleChange}/>
               </label>
               <input type="submit" value="Submit"/>
-              <h2>{this.state.}</h2>
+              <h2>{this.state.value}</h2>
             </form>
           )
         }
