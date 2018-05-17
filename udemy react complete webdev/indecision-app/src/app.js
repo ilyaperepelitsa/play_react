@@ -2,7 +2,7 @@
 
 console.log("App.js is running")
 
-var template = <p>This is JSX. Doe</p>
+var template = <p>This is JSX. Does t</p>
 var appRoot = document.getElementById("app");
 
 
