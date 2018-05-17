@@ -31,7 +31,7 @@
         componentDidMount(){
           fetch("http://swapi.co/api/people/")
           .then(function(response){
-            re
+            return response.json()
           })
         }
 
