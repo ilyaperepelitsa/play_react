@@ -28,7 +28,7 @@ function getLocation(location) {
     return React.createElement(
       "p",
       null,
-      "location"
+      "Location: location"
     );
   } else {
     return "Unknwon";

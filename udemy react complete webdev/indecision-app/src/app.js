@@ -23,7 +23,7 @@ var user = {
 
 function getLocation(location){
   if (location){
-    return <p>location</p>;
+    return <p>Location: location</p>;
   } else{
   return "Unknwon";
   }
