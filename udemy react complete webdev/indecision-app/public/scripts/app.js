@@ -19,7 +19,7 @@ var userLocation = "New York, NY";
 
 var user = {
   name: "Ilya Perepelitsa",
-  age: 29,
+  // age: 29,
   location: "New York, NY"
 };
 
