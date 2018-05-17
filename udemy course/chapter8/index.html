@@ -16,7 +16,7 @@
     </div>
 
     <script type = "text/babel">
-    
+
     class ColorList extends React.Component{
       render(){
         return(
@@ -47,16 +47,16 @@
 
 
       console.log(colors);
-      // var destination = document.getElementById("app");
-      // // REACT PART
-      // ReactDOM.render(
-      //   // REACT WHAT
-      //   <ColorList colors = {colors}/>
-      //   ,
-      //
-      //   // REACT WHERE - div id of the app
-      //   destination
-      // );
+      var destination = document.getElementById("app");
+      // REACT PART
+      ReactDOM.render(
+        // REACT WHAT
+        <ColorList colors = {colors}/>
+        ,
+
+        // REACT WHERE - div id of the app
+        destination
+      );
     </script>
 
   </body>
