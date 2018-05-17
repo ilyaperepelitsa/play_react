@@ -20,34 +20,34 @@
     </div>
 
     <script type = "text/babel">
-      // class FamilyList extends React.Component{
-      //   render(){
-      //     return(
-      //     <div>
-      //       {this.props.siblings.
-      //         filter(person => person.female).
-      //         map(person => <div key = {person.id}>
-      //           {person.name}
-      //         </div>)}
-      //     </div>);
-      //   }}
+      class FamilyList extends React.Component{
+        render(){
+          return(
+          <div>
+            {this.props.siblings.
+              filter(person => person.female).
+              map(person => <div key = {person.id}>
+                {person.name}
+              </div>)}
+          </div>);
+        }}
 
 
       var siblings = [{id: 1, name: "Chris", female: false},
                       {id: 2, name: "Jeff", female: false},
                       {id: 3, name: "Hulie", female: true},
-      //                 {id: 4, name: "Jessica", female: true}]
-      //
-      // var destination = document.getElementById("app");
-      // // REACT PART
-      // ReactDOM.render(
-      //   // REACT WHAT
-      //   <FamilyList siblings={siblings}/>
-      //   ,
-      //
-      //   // REACT WHERE - div id of the app
-      //   destination
-      // );
+                      {id: 4, name: "Jessica", female: true}]
+
+      var destination = document.getElementById("app");
+      // REACT PART
+      ReactDOM.render(
+        // REACT WHAT
+        <FamilyList siblings={siblings}/>
+        ,
+
+        // REACT WHERE - div id of the app
+        destination
+      );
     </script>
 
   </body>
