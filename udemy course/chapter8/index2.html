@@ -32,7 +32,7 @@
 
     function UserName(props){
       return(
-        <h1 class = "name">{props.name}</h1>
+        <h1 class = "name">{props}</h1>
       );
     }
 
@@ -76,7 +76,7 @@
           this.props.people.
           map(person =>
             <div className = "friendly">
-              <Avatar props = {person}/>
+              <Avatar props = {person.img_url}/>
               <Username props = {person}/>
               <GetConnected/>
 
