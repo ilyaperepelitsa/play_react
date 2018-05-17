@@ -20,6 +20,8 @@ var user = {
   age: 29,
   location: "New York, NY"
 }
+
+
 var template2 =
     <div>
       <h1>{user.name}</h1>

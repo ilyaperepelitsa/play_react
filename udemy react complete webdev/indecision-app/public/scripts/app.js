@@ -22,6 +22,7 @@ var user = {
   age: 29,
   location: "New York, NY"
 };
+
 var template2 = React.createElement(
   "div",
   null,
