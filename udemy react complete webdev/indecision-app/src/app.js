@@ -28,7 +28,6 @@ function getLocation(){
   }
 }
 
-console.log(user.location)
 
 var template2 =
     <div>
