@@ -20,7 +20,9 @@ var user = {
   age: 29,
   location: "New York, NY"
 }
-function get
+function getLocation(){
+  re
+}
 
 var template2 =
     <div>
