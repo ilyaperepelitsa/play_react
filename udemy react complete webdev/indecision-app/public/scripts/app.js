@@ -23,7 +23,7 @@ var user = {
   location: "New York, NY"
 };
 function getLocation() {
-  re;
+  return "Unknwon";
 }
 
 var template2 = React.createElement(
