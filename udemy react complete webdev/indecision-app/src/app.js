@@ -16,7 +16,7 @@ var userAge = 29
 var userLocation = "New York, NY"
 
 var user = {
-  // name: "Ilya Perepelitsa",
+  name: "Ilya Perepelitsa",
   age: 29,
   location: "New York, NY"
 }
@@ -31,7 +31,7 @@ function getLocation(location){
 var template2 =
     <div>
       <h1>{user.name ? user.name : "Anonymous"}</h1>
-      <p>Age: {user.age}</p>
+      {user.a}
       {getLocation(user.location)}
     </div>
 var appRoot = document.getElementById("app");
