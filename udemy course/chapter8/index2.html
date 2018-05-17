@@ -96,10 +96,9 @@
 
     class Profiles extends React.Component{
       render(){
-
-
         return(
           this.props.people.
+          filt
           map(person =>
             <div style = {friendlyStyle}>
               <Avatar img_url = {person.img_url}/>
