@@ -53,10 +53,12 @@ const template3 = (
     <p>{post.some_num >= 30 ? "big number" : "Small number"}</p>
   </div>
 )
+let count = 0;
 
 const template4 = (
   <div>
     <h1>Count: {count}</h1>
+    <butto
   </div>
 )
 
