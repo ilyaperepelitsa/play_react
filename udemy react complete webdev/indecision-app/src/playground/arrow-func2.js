@@ -17,5 +17,5 @@
 //
 // console.log(user.printPlacesLived())
 const multiplier = {
-  numbers = 
+  numbers = [1, 2]
 }
