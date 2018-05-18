@@ -4,4 +4,4 @@
 // var nameVar = "Mike";
 // console.log("nameVar", nameVar)
 var nameLet = "Jen";
-console.log("nameLe");
+console.log("nameLet", nameLet);
