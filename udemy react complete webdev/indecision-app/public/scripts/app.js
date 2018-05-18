@@ -19,7 +19,7 @@
 //
 // console.log(user.printPlacesLived())
 var multiplier = {
-  numbers: [1.0, 23.0, 5324.0, 2.0, 1245],
+  numbers: [1, 23, 5324, 2, 1245],
   multiplyBy: 2.0,
   multiply: function multiply() {
     return this.numbers.map(function (number) {
