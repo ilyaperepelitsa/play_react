@@ -7,7 +7,7 @@ console.log(add(2, 4, 500))
 const user = {
   name: "Andrew",
   cities: ["Philadelphia", "New York", "Dublin"],
-  printPlacesLived:(){
+  printPlacesLived(){
     // const that = this;
     // console.log(this.name);
     // console.log(this.cities);
