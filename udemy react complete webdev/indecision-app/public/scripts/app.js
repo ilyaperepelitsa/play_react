@@ -88,7 +88,7 @@ var template3 = React.createElement(
   post.subtitle && post.subtitle.length > 10 && React.createElement(
     "p",
     null,
-    " "
+    pos
   )
 );
 
