@@ -1,5 +1,5 @@
 const add = function(a, b){
-  console.log(argy)
+  console.log(arguments)
   return a + b;
 }
 

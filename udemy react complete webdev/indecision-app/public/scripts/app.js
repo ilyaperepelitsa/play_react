@@ -1,7 +1,7 @@
 "use strict";
 
 var add = function add(a, b) {
-  console.log(argy);
+  console.log(arguments);
   return a + b;
 };
 
