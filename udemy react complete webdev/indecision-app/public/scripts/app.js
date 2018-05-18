@@ -21,7 +21,11 @@ var onFormSubmit = function onFormSubmit(e) {
 var template = React.createElement(
   "div",
   null,
-  React.createElement("p", null),
+  React.createElement(
+    "p",
+    null,
+    app.options.length
+  ),
   React.createElement(
     "form",
     { onSubmit: onFormSubmit },
