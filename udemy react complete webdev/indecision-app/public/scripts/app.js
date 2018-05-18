@@ -76,7 +76,5 @@ var post = {
   title: "This is a tutorial nonsense",
   subtitle: "I wouldn't really look into it",
   some_num: 30
-  // var template3 =
-
-
-};ReactDOM.render(template2, appRoot);
+};
+var template3 = ReactDOM.render(template2, appRoot);
