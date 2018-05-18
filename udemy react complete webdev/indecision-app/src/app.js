@@ -59,7 +59,8 @@ const template4 = (
   <div>
     <h1>Count: {count}</h1>
     <button id = "my-id"
-            className = "button">+1</button>
+            className = "button"
+            onClick =>+1</button>
   </div>
 )
 
