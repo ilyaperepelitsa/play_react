@@ -13,7 +13,7 @@ var user = {
     console.log(this.name);
     console.log(this.cities);
     this.cities.forEach(function (city) {
-      console.log(this.name + "");
+      console.log(this.name + " has ");
     });
   }
 };
