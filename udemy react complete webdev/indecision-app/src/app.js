@@ -4,7 +4,7 @@ const appRoot = document.getElementById("app");
 const app = {
   title: "Indecision App",
   subtitle: "Put thingy thingy thing",
-  options = []
+  options = ["One", "T"]
 }
 
 
