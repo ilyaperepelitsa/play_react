@@ -8,7 +8,7 @@ const user = {
   name: "Andrew",
   cities: ["Philadelphia", "New York", "Dublin"],
   printPlacesLived: function(){
-    con
+    const tha
     console.log(this.name);
     console.log(this.cities);
     this.cities.forEach(function(city){
