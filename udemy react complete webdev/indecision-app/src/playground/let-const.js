@@ -14,5 +14,5 @@ console.log("nameConst", nameConst)
 var fullName = "Andre Pewpew"
 
 if (fullName){
-  v
+  var firstName = fullnam
 }
