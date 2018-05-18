@@ -8,8 +8,8 @@ const user = {
   name: "Andrew",
   cities: ["Philadelphia", "New York", "Dublin"],
   printPlacesLived(){
-    const pew = this.cities.map((city) => {
-      return city + " pewpew"});
+    const pew = this.cities.map((city) => 
+      return city + " pewpew");
 
     return pew;
     // this.cities.forEach((city)=>{
