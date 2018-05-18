@@ -54,12 +54,11 @@ const template3 = (
   </div>
 )
 const addOne = () => {
-  count += 1
-  console.log(count)
+  
 }
 var count = 0;
 
-var template4 = (
+const template4 = (
   <div>
     <h1>Count: {count} </h1>
     <button id = "my-id"
