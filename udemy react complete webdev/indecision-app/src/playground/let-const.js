@@ -2,5 +2,9 @@
 // var nameVar = "Mike";
 // console.log("nameVar", nameVar)
 let nameLet = "Jen";
- nameLet = "Hanne";
+nameLet = "Hanne";
+console.log("nameLet", nameLet)
+
+
+nameLet = "Hanne";
 console.log("nameLet", nameLet)

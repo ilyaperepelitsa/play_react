@@ -6,3 +6,6 @@
 var nameLet = "Jen";
 nameLet = "Hanne";
 console.log("nameLet", nameLet);
+
+nameLet = "Hanne";
+console.log("nameLet", nameLet);
