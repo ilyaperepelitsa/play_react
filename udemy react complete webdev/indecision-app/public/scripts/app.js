@@ -85,7 +85,11 @@ var template3 = React.createElement(
     null,
     post.title
   ),
-  React.createElement("p", null)
+  React.createElement(
+    "p",
+    null,
+    post.subtitle
+  )
 );
 
 ReactDOM.render(template2, appRoot);
