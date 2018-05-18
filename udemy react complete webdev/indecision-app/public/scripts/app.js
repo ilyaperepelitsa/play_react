@@ -11,7 +11,7 @@ var user = {
   cities: ["Philadelphia", "New York", "Dublin"],
   printPlacesLived: function printPlacesLived() {
     var pew = this.cities.map(function (city) {
-      return city + "pewp";
+      return city + " pewpew";
     });
 
     return pew;
