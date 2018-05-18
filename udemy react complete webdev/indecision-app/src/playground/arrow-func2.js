@@ -6,5 +6,5 @@ const add = function(a, b){
 console.log(add(2, 4, 500))
 const user = {
   name: "Andrew",
-  cities: 
+  cities: ["Philadelphia", ]
 }
