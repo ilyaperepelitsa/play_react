@@ -7,5 +7,5 @@ var nameLet = "Jen";
 nameLet = "Hanne";
 console.log("nameLet", nameLet);
 
-var nameConst = "Hanne";
-console.log("nameLet", nameLet);
+var nameConst = "Peter";
+console.log("nameLet", nameConst);
