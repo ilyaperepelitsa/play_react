@@ -1,1 +1,1 @@
-const add = function = 
+const add = function()
