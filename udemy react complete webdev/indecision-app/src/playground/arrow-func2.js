@@ -10,6 +10,7 @@ const user = {
   printPlacesLived: function(){
     console.log(this.name);
     console.log(this.cities);
+    this.
   }
 }
 
