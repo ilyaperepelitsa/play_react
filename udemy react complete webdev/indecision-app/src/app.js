@@ -42,7 +42,7 @@ var post = {
   title: "This is a tutorial nonsense",
   // subtitle: "I wouldn",
   subtitle: "I wouldn't really look into it. It's pretty long",
-  some_num: 30
+  some_num: 3
 }
 var template3 = (
   <div>
