@@ -3,9 +3,9 @@ const appRoot = document.getElementById("app");
 
 const template = (
   <div>
-    <form>
+    <form onSubmit = >
       <input type="text" name="option"/>
-      <button></button>
+      <button>Add option</button>
     </form>
   </div>
 )
