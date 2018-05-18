@@ -2,4 +2,5 @@ const square = function(x){
   return x * x
 }
 
-console.log(square(4))
+const 
+console.log(square(4.25))
