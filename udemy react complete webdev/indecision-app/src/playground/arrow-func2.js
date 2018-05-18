@@ -13,4 +13,4 @@ const user = {
   }
 }
 
-us
+user;
