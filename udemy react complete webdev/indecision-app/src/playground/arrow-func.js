@@ -11,8 +11,10 @@
 // console.log(square(4.25))
 // console.log(squareArrow(12))
 
-const getFirstName = (fullname) => {
-  return fullname.split(" ")[0]
-}
+// const getFirstName = (fullname) => {
+//   return fullname.split(" ")[0]
+// }
+
+
 
 console.log(getFirstName("Pewpew Hendriks"))
