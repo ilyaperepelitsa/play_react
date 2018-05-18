@@ -3,7 +3,7 @@ const appRoot = document.getElementById("app");
 
 const template = (
   <div>
-    <form onSubmit = >
+    <form onSubmit = {onFormSu}>
       <input type="text" name="option"/>
       <button>Add option</button>
     </form>
