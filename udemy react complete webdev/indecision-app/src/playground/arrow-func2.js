@@ -20,7 +20,7 @@ const multiplier = {
   numbers : [10, 20],
   multiplyBy : 2,
   multiply(){
-    return this.numbers.map((number) => number * self.multiplyBy);
+    return this.numbers.map((number) => number * this.multiplyBy);
   }
 }
 
