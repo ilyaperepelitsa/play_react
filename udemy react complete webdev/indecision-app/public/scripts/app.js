@@ -2,6 +2,8 @@
 
 var appRoot = document.getElementById("app");
 
+c;
+
 var onFormSubmit = function onFormSubmit(e) {
   e.preventDefault();
   var option = e.target.elements.option.value;
