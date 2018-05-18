@@ -2,4 +2,4 @@
 
 var appRoot = document.getElementById("app");
 
-ReactDOM.render(template, appRoot);
+var template = ReactDOM.render(template, appRoot);
