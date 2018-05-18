@@ -14,9 +14,9 @@ const template =
       </ol>
     </div>
 
-var userName = "Ilya"
-var userAge = 29
-var userLocation = "New York, NY"
+const userName = "Ilya"
+const userAge = 29
+co userLocation = "New York, NY"
 
 var user = {
   name: "Ilya Perepelitsa",
