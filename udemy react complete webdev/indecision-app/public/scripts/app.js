@@ -99,7 +99,9 @@ var template3 = React.createElement(
     post.some_num >= 30 ? "big number" : "Small number"
   )
 );
-var addOne = function addOne() {};
+var addOne = function addOne() {
+  console.log();
+};
 var count = 0;
 
 var template4 = React.createElement(
@@ -131,7 +133,7 @@ var template4 = React.createElement(
     { id: "my-id",
       className: "button",
       onClick: addOne },
-    "Re"
+    "Reset"
   )
 );
 

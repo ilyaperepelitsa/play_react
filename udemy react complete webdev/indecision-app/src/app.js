@@ -54,7 +54,7 @@ const template3 = (
   </div>
 )
 const addOne = () => {
-
+  console.log()
 }
 var count = 0;
 
@@ -69,7 +69,7 @@ const template4 = (
             onClick = {addOne}>-1</button>
     <button id = "my-id"
             className = "button"
-            onClick = {addOne}>Re</button>
+            onClick = {addOne}>Reset</button>
   </div>
 )
 
