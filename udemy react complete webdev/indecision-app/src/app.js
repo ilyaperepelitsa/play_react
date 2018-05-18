@@ -11,7 +11,7 @@ var template =
         <li>PEWPEWPEW</li>
       </ol>
     </div>
-    
+
 var userName = "Ilya"
 var userAge = 29
 var userLocation = "New York, NY"
@@ -36,6 +36,12 @@ var template2 =
       {getLocation(user.location)}
     </div>
 var appRoot = document.getElementById("app");
+
+
+
+
+
+
 
 
 ReactDOM.render(template2, appRoot)
