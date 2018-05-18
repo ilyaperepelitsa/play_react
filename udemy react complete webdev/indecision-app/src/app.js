@@ -54,7 +54,7 @@ const template3 = (
   </div>
 )
 
-сщтые
+const temp
 
 
 
