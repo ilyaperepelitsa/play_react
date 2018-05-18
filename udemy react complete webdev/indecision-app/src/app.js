@@ -56,7 +56,7 @@ const template3 = (
 
 const template4 = (
   <div>
-    <h1>Count: </h1>
+    <h1>Count: {count}</h1>
   </div>
 )
 

@@ -106,7 +106,8 @@ var template4 = React.createElement(
   React.createElement(
     "h1",
     null,
-    "Count: "
+    "Count: ",
+    count
   )
 );
 
