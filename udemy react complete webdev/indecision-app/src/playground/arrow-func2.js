@@ -20,8 +20,8 @@ const multiplier = {
   numbers = [1, 23, 5324, 2, 1245.2],
   multiplyNumber = 2,
   multiplyBy(){
-    return this.numbers.map((number) => number * s)
+    return this.numbers.map((number) => number * self.multiplyNumber)
   }
 }
 
-console.log(multiplier.multiplyBy(2))
+console.log(multiplier.multiplyBy())
