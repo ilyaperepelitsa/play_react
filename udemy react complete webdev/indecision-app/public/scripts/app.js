@@ -4,4 +4,4 @@ var square = function square(x) {
   return x * x;
 };
 
-console.log(sqyar);
+console.log(square());
