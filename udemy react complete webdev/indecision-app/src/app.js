@@ -38,7 +38,7 @@ var template2 =
 var appRoot = document.getElementById("app");
 
 
-
+var title = ""
 // var template3 =
 
 
