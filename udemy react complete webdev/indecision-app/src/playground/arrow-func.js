@@ -2,5 +2,5 @@ const square = function(x){
   return x * x
 }
 
-const squareArrow = {}
+const squareArrow = ()
 console.log(square(4.25))
