@@ -55,11 +55,11 @@ const template3 = (
 )
 const addOne = () => {
   count ++
-  console.log("+1")
+  console.log("+1", count)
 }
 
 const minusOne = () => {
-  count 
+  count --
   console.log("-1")
 }
 

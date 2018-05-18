@@ -101,11 +101,11 @@ var template3 = React.createElement(
 );
 var addOne = function addOne() {
   count++;
-  console.log("+1");
+  console.log("+1", count);
 };
 
 var minusOne = function minusOne() {
-  count;
+  count--;
   console.log("-1");
 };
 
