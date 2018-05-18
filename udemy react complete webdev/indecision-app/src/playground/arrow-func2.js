@@ -19,6 +19,6 @@
 const multiplier = {
   numbers = [1, 23, 5324, 2, 1245.2],
   multiplyBy(){
-    return thi
+    return this.numbers.map((nu))
   }
 }
