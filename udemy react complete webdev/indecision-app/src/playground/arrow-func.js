@@ -1,3 +1,5 @@
 const square = function(x){
-  re
+  return x * x
 }
+
+console.log(sqyar)

@@ -1,5 +1,7 @@
 "use strict";
 
 var square = function square(x) {
-  re;
+  return x * x;
 };
+
+console.log(sqyar);
