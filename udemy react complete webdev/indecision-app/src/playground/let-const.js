@@ -11,4 +11,6 @@ const nameConst = "Peter";
 console.log("nameConst", nameConst)
 
 
-var fullName = "andr"
+var fullName = "Andre Pewpew"
+
+if 
