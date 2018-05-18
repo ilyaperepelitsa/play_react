@@ -7,7 +7,7 @@ const onFormSubmit = (e) => {
 
 const template = (
   <div>
-    <form onSubmit = {onFormSubmit()}>
+    <form onSubmit = {onFormSubmit}>
       <input type="text" name="option"/>
       <button>Add option</button>
     </form>

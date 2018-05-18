@@ -11,7 +11,7 @@ var template = React.createElement(
   null,
   React.createElement(
     "form",
-    { onSubmit: onFormSubmit() },
+    { onSubmit: onFormSubmit },
     React.createElement("input", { type: "text", name: "option" }),
     React.createElement(
       "button",
