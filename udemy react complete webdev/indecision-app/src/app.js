@@ -1,7 +1,7 @@
 
 const appRoot = document.getElementById("app");
 
-const onFormSubmit()
+const onFormSubmit 
 
 const template = (
   <div>
