@@ -4,4 +4,6 @@ const add = function(a, b){
 }
 
 console.log(add(2, 4, 500))
-const = 
+const user = {
+  na
+}
