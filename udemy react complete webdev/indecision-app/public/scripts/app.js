@@ -4,7 +4,8 @@ var appRoot = document.getElementById("app");
 
 var app = {
   title: "Indecision App",
-  subtitle: "Put thingy "
+  subtitle: "Put thingy thingy thing",
+  o: o
 };
 
 var onFormSubmit = function onFormSubmit(e) {

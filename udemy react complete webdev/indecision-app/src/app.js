@@ -3,7 +3,8 @@ const appRoot = document.getElementById("app");
 
 const app = {
   title: "Indecision App",
-  subtitle: "Put thingy "
+  subtitle: "Put thingy thingy thing",
+  o
 }
 
 
