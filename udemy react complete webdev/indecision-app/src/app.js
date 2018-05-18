@@ -54,7 +54,7 @@ const template3 = (
   </div>
 )
 const addOne = () => {
-  th
+  this.count
 }
 let count = 0;
 
