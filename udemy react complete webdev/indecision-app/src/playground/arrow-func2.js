@@ -11,7 +11,7 @@ const user = {
     // const that = this;
     console.log(this.name);
     console.log(this.cities);
-    this.cities.forEach((city)-{
+    this.cities.forEach((city)=>{
       console.log(this.name + " has lived in " + city);
     })
   }
