@@ -58,7 +58,7 @@ let count = 0;
 const template4 = (
   <div>
     <h1>Count: {count}</h1>
-    <button id = >+1</button>
+    <button id = "my-id" >+1</button>
   </div>
 )
 
