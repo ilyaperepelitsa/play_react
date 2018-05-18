@@ -72,6 +72,4 @@ var template2 = React.createElement(
 );
 var appRoot = document.getElementById("app");
 
-var templ;
-
-ReactDOM.render(template2, appRoot);
+var template3 = ReactDOM.render(template2, appRoot);
