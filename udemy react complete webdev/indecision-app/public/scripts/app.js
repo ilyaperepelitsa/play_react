@@ -14,5 +14,5 @@
 // console.log(squareArrow(12))
 
 getFirstName = function getFirstName(fullname) {
-  fullname.split("");
+  return fullname.split(" ")[0];
 };
