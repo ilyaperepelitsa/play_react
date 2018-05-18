@@ -9,7 +9,7 @@ const user = {
   cities: ["Philadelphia", "New York", "Dublin"],
   printPlacesLived(){
     const pew = this.cities.map((city) => {
-      city});
+      return city});
 
     // this.cities.forEach((city)=>{
     //   console.log(this.name + " has lived in " + city);
