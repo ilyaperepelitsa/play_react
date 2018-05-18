@@ -38,7 +38,9 @@ var template2 =
 var appRoot = document.getElementById("app");
 
 
-var post 
+var post = {
+  
+}
 // var template3 =
 
 
