@@ -5,5 +5,6 @@ var square = function square(x) {
 };
 
 var squareArrow = function squareArrow(x) {
-  return console.log(square(4.25));
+  return x;
 };
+console.log(square(4.25));
