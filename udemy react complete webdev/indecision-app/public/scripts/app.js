@@ -88,7 +88,7 @@ var template3 = React.createElement(
   React.createElement(
     "p",
     null,
-    post.subtitle && post.subtitle
+    post.subtitle && post.subtitle.length
   )
 );
 
