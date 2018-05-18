@@ -8,7 +8,7 @@ var template = React.createElement(
   React.createElement(
     "form",
     null,
-    React.createElement("input", { type: "te" })
+    React.createElement("input", { type: "text", name: "option" })
   )
 );
 
