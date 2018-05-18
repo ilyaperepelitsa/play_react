@@ -46,7 +46,7 @@ const post = {
   subtitle: "I wouldn't really look into it. It's pretty long",
   some_num: 3
 }
-var template3 = (
+const template3 = (
   <div>
     <h1>{post.title}</h1>
     {(post.subtitle && post.subtitle.length > 10) && <p>{post.subtitle}</p>}
