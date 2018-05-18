@@ -1,11 +1,16 @@
-const square = function(x){
-  return x * x
-}
+// const square = function(x){
+//   return x * x
+// }
+// //
+// // const squareArrow = (x) => {
+// //   return x*x
+// // }
+//
+// const squareArrow = (x) => x*x
+//
+// console.log(square(4.25))
+// console.log(squareArrow(12))
 
-const squareArrow = (x) => {
-  return x*x
+getFirstName = (fullname) => {
+  fullname.split("")
 }
-
-const 
-console.log(square(4.25))
-console.log(squareArrow(4.21123135))
