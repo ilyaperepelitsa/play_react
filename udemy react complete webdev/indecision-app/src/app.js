@@ -4,6 +4,8 @@ const appRoot = document.getElementById("app");
 const onFormSubmit = (e) => {
   e.preventDefault();
   const option = e.target.elements.option.value;
+
+  if 
 }
 
 const template = (
