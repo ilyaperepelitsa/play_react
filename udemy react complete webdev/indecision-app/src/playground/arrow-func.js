@@ -5,5 +5,7 @@ const square = function(x){
 const squareArrow = (x) => {
   return x*x
 }
+
+const 
 console.log(square(4.25))
 console.log(squareArrow(4.21123135))
