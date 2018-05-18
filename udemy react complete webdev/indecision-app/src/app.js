@@ -54,4 +54,4 @@ var template3 = (
 
 
 
-ReactDOM.render(template2, appRoot)
+ReactDOM.render(template3, appRoot)
