@@ -100,6 +100,10 @@ var template3 = React.createElement(
   )
 );
 
-var template4 = React.createElement("div", null);
+var template4 = React.createElement(
+  "div",
+  null,
+  React.createElement("h1", null)
+);
 
 ReactDOM.render(template3, appRoot);
