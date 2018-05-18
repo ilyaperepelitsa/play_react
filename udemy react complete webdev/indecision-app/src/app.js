@@ -16,9 +16,9 @@ const template =
 
 const userName = "Ilya"
 const userAge = 29
-co userLocation = "New York, NY"
+const userLocation = "New York, NY"
 
-var user = {
+const user = {
   name: "Ilya Perepelitsa",
   age: 29,
   location: "New York, NY"
