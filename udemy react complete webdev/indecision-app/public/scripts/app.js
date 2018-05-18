@@ -118,6 +118,20 @@ var template4 = React.createElement(
       className: "button",
       onClick: addOne },
     "+1"
+  ),
+  React.createElement(
+    "button",
+    { id: "my-id",
+      className: "button",
+      onClick: addOne },
+    "+1"
+  ),
+  React.createElement(
+    "button",
+    { id: "my-id",
+      className: "button",
+      onClick: addOne },
+    "+1"
   )
 );
 
