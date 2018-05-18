@@ -103,7 +103,11 @@ var template3 = React.createElement(
 var template4 = React.createElement(
   "div",
   null,
-  React.createElement("h1", null)
+  React.createElement(
+    "h1",
+    null,
+    "Count: "
+  )
 );
 
-ReactDOM.render(template3, appRoot);
+ReactDOM.render(template4, appRoot);

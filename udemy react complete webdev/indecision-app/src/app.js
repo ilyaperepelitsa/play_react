@@ -56,11 +56,11 @@ const template3 = (
 
 const template4 = (
   <div>
-    <h1></h1>
+    <h1>Count: </h1>
   </div>
 )
 
 
 
 
-ReactDOM.render(template3, appRoot)
+ReactDOM.render(template4, appRoot)
