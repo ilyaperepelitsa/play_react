@@ -19,6 +19,8 @@
 const multiplier = {
   numbers = [1, 23, 5324, 2, 1245.2],
   multiplyBy(){
-    return this.numbers.map(number => number * argume)
+    return this.numbers.map(number => number * arguments)
   }
 }
+
+console
