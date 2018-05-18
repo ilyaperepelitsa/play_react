@@ -54,7 +54,11 @@ const template3 = (
   </div>
 )
 const addOne = () => {
-  console.log()
+  console.log("-1")
+}
+
+const addOne = () => {
+  console.log("-1")
 }
 var count = 0;
 
