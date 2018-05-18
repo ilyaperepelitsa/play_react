@@ -45,7 +45,7 @@ var post = {
 }
 var template3 = (
   <div>
-    <h1>{}</h1>
+    <h1>{post.}</h1>
   </div>
 )
 
