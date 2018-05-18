@@ -48,7 +48,7 @@ var template3 = (
   <div>
     <h1>{post.title}</h1>
     {(post.subtitle && post.subtitle.length > 10) && <p>{post.subtitle}</p>}
-    <p>{post.some_num }</p>
+    <p>{post.some_num >=}</p>
   </div>
 )
 
