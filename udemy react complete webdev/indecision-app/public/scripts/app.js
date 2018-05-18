@@ -15,4 +15,4 @@ var user = {
   }
 };
 
-console.log();
+console.log(user.printPlacesLived());
