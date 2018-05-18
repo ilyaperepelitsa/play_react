@@ -3,7 +3,9 @@ const appRoot = document.getElementById("app");
 
 const template = (
   <div>
-    <fo
+    <form>
+      <input
+    </form>
   </div>
 )
 
