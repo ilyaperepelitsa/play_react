@@ -13,4 +13,4 @@ const user = {
   }
 }
 
-user;
+console.log()

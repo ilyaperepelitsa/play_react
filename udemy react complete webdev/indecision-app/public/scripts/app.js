@@ -15,4 +15,4 @@ var user = {
   }
 };
 
-user;
+console.log();
