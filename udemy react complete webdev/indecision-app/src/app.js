@@ -53,6 +53,7 @@ const template3 = (
     <p>{post.some_num >= 30 ? "big number" : "Small number"}</p>
   </div>
 )
+
 let count = 0;
 
 const template4 = (
@@ -60,7 +61,7 @@ const template4 = (
     <h1>Count: {count}</h1>
     <button id = "my-id"
             className = "button"
-            onClick =>+1</button>
+            onClick = {}>+1</button>
   </div>
 )
 
