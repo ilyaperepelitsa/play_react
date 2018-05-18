@@ -17,5 +17,6 @@
 //
 // console.log(user.printPlacesLived())
 const multiplier = {
-  numbers = [1, 23, 5324, 2, 1245.2]
+  numbers = [1, 23, 5324, 2, 1245.2],
+  multiplyBy = 
 }
