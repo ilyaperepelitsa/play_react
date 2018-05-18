@@ -3,7 +3,7 @@ const appRoot = document.getElementById("app");
 
 const onFormSubmit = (e) => {
   e.preventDefault();
-  const option = e.tar
+  const option = e.target.elements.
 }
 
 const template = (
