@@ -1,21 +1,103 @@
 "use strict";
 
-// var nameVar = "Andrew";
-// var nameVar = "Mike";
-// console.log("nameVar", nameVar)
-var nameLet = "Jen";
-nameLet = "Hanne";
-console.log("nameLet", nameLet);
+// live-server public
+// babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch
+// babel src/playground/let-const.js --out-file=public/scripts/app.js --presets=env,react --watch
 
-var nameConst = "Peter";
-// const nameConst = "Steve ";
-console.log("nameConst", nameConst);
+console.log("App.js is running");
 
-var fullName = "Andrew Pewpew";
+var template = React.createElement(
+  "div",
+  null,
+  React.createElement(
+    "h1",
+    null,
+    "This is JSX. Does this change?"
+  ),
+  React.createElement(
+    "p",
+    null,
+    " Some paragraph"
+  ),
+  React.createElement(
+    "ol",
+    null,
+    React.createElement(
+      "li",
+      null,
+      "Pew"
+    ),
+    React.createElement(
+      "li",
+      null,
+      "PEWPEWPEW"
+    )
+  )
+);
 
-if (fullName) {
-  var _firstName = fullName.split(" ")[0];
-  console.log(_firstName);
+var userName = "Ilya";
+var userAge = 29;
+var userLocation = "New York, NY";
+
+var user = {
+  name: "Ilya Perepelitsa",
+  age: 29,
+  location: "New York, NY"
+};
+
+function getLocation(location) {
+  if (location) {
+    return React.createElement(
+      "p",
+      null,
+      "Location: ",
+      location
+    );
+  }
 }
 
-console.log(firstName);
+var template2 = React.createElement(
+  "div",
+  null,
+  React.createElement(
+    "h1",
+    null,
+    user.name ? user.name : "Anonymous"
+  ),
+  user.age && user.age >= 18 && React.createElement(
+    "p",
+    null,
+    "Age (grown-up): ",
+    user.age
+  ),
+  getLocation(user.location)
+);
+var appRoot = document.getElementById("app");
+
+var post = {
+  title: "This is a tutorial nonsense",
+  // subtitle: "I wouldn",
+  subtitle: "I wouldn't really look into it. It's pretty long",
+  some_num: 3
+};
+var template3 = React.createElement(
+  "div",
+  null,
+  React.createElement(
+    "h1",
+    null,
+    post.title
+  ),
+  post.subtitle && post.subtitle.length > 10 && React.createElement(
+    "p",
+    null,
+    post.subtitle
+  ),
+  React.createElement(
+    "p",
+    null,
+    post.some_num >= 30 ? "big number" : "Small number"
+  )
+);
+
+ReactDOM.render(template3, appRoot);
