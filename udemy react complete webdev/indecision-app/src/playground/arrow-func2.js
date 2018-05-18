@@ -17,4 +17,4 @@ const user = {
   }
 }
 
-console.log(user.printPlacesLived())
+// console.log(user.printPlacesLived())
