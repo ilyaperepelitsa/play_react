@@ -43,7 +43,9 @@ var post = {
   subtitle: "I wouldn't really look into it",
   some_num: 30
 }
-var template3 = 
+var template3 = (
+  <div>
+)
 
 
 
