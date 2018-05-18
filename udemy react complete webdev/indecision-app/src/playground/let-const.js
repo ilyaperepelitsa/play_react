@@ -13,4 +13,6 @@ console.log("nameConst", nameConst)
 
 var fullName = "Andre Pewpew"
 
-if 
+if (fullName){
+  v
+}
