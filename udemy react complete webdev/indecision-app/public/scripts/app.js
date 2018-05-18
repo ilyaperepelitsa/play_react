@@ -10,15 +10,13 @@ var user = {
   name: "Andrew",
   cities: ["Philadelphia", "New York", "Dublin"],
   printPlacesLived: function printPlacesLived() {
-    var _this = this;
-
     var pew = this.cities.map(function (city) {
       return city;
     });
 
-    this.cities.forEach(function (city) {
-      console.log(_this.name + " has lived in " + city);
-    });
+    // this.cities.forEach((city)=>{
+    //   console.log(this.name + " has lived in " + city);
+    // })
   }
 };
 
