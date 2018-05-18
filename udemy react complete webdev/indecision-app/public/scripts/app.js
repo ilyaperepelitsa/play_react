@@ -13,8 +13,8 @@
 // console.log(square(4.25))
 // console.log(squareArrow(12))
 
-getFirstName = function getFirstName(fullname) {
+var getFirstName = function getFirstName(fullname) {
   return fullname.split(" ")[0];
 };
 
-console.log(getFirstName("Pewpew H"));
+console.log(getFirstName("Pewpew Hendriks"));
