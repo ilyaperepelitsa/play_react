@@ -19,7 +19,6 @@ var user = {
       console.log(_this.name + " has lived in " + city);
     });
   }
-
-  // console.log(user.printPlacesLived())
-
 };
+
+console.log(user.printPlacesLived());
