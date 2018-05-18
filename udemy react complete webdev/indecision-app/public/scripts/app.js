@@ -106,7 +106,7 @@ var addOne = function addOne() {
 
 var minusOne = function minusOne() {
   count--;
-  console.log("-1");
+  console.log("-1", count);
 };
 
 var reset = function reset() {
