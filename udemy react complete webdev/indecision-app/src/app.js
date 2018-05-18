@@ -53,7 +53,7 @@ const template3 = (
     <p>{post.some_num >= 30 ? "big number" : "Small number"}</p>
   </div>
 )
-
+const addOne = ()
 let count = 0;
 
 const template4 = (
