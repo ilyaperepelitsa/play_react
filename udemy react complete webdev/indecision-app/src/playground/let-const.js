@@ -11,4 +11,4 @@ const nameConst = "Peter";
 console.log("nameConst", nameConst)
 
 
-var
+var fullName = "andr"
