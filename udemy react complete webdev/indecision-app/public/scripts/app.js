@@ -1,33 +1,105 @@
 "use strict";
 
-// const add = function(a, b){
-//   console.log(arguments)
-//   return a + b;
-// }
-//
-// console.log(add(2, 4, 500))
-// const user = {
-//   name: "Andrew",
-//   cities: ["Philadelphia", "New York", "Dublin"],
-//   printPlacesLived(){
-//     return this.cities.map((city) => city + " pewpew");
-//     // this.cities.forEach((city)=>{
-//     //   console.log(this.name + " has lived in " + city);
-//     // })
-//   }
-// }
-//
-// console.log(user.printPlacesLived())
-var multiplier = {
-  numbers: [10, 20, 1233, 352452, 1231323],
-  multiplyBy: 23,
-  multiply: function multiply() {
-    var _this = this;
+// live-server public
+// babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch
+// babel src/playground/let-const.js --out-file=public/scripts/app.js --presets=env,react --watch
 
-    return this.numbers.map(function (number) {
-      return number * _this.multiplyBy;
-    });
-  }
+console.log("App.js is running");
+
+var template = React.createElement(
+  "div",
+  null,
+  React.createElement(
+    "h1",
+    null,
+    "This is JSX. Does this change?"
+  ),
+  React.createElement(
+    "p",
+    null,
+    " Some paragraph"
+  ),
+  React.createElement(
+    "ol",
+    null,
+    React.createElement(
+      "li",
+      null,
+      "Pew"
+    ),
+    React.createElement(
+      "li",
+      null,
+      "PEWPEWPEW"
+    )
+  )
+);
+
+var userName = "Ilya";
+var userAge = 29;
+var userLocation = "New York, NY";
+
+var user = {
+  name: "Ilya Perepelitsa",
+  age: 29,
+  location: "New York, NY"
 };
 
-console.log(multiplier.multiply());
+function getLocation(location) {
+  if (location) {
+    return React.createElement(
+      "p",
+      null,
+      "Location: ",
+      location
+    );
+  }
+}
+
+var template2 = React.createElement(
+  "div",
+  null,
+  React.createElement(
+    "h1",
+    null,
+    user.name ? user.name : "Anonymous"
+  ),
+  user.age && user.age >= 18 && React.createElement(
+    "p",
+    null,
+    "Age (grown-up): ",
+    user.age
+  ),
+  getLocation(user.location)
+);
+var appRoot = document.getElementById("app");
+
+var post = {
+  title: "This is a tutorial nonsense",
+  // subtitle: "I wouldn",
+  subtitle: "I wouldn't really look into it. It's pretty long",
+  some_num: 3
+};
+var template3 = React.createElement(
+  "div",
+  null,
+  React.createElement(
+    "h1",
+    null,
+    post.title
+  ),
+  post.subtitle && post.subtitle.length > 10 && React.createElement(
+    "p",
+    null,
+    post.subtitle
+  ),
+  React.createElement(
+    "p",
+    null,
+    post.some_num >= 30 ? "big number" : "Small number"
+  )
+);
+
+сщтые;
+
+ReactDOM.render(template3, appRoot);
