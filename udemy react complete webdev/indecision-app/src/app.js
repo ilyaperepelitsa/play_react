@@ -57,9 +57,9 @@ const addOne = () => {
   count += 1
   console.log(count)
 }
-let count = 0;
+var count = 0;
 
-const template4 = (
+var template4 = (
   <div>
     <h1>Count: {count} </h1>
     <button id = "my-id"
