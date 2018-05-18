@@ -55,6 +55,7 @@ const template3 = (
 )
 const addOne = () => {
   count += 1
+  console
 }
 let count = 0;
 

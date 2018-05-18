@@ -101,6 +101,7 @@ var template3 = React.createElement(
 );
 var addOne = function addOne() {
   count += 1;
+  console;
 };
 var count = 0;
 
