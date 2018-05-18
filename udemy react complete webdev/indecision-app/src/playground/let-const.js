@@ -14,7 +14,7 @@ console.log("nameConst", nameConst)
 var fullName = "Andrew Pewpew"
 
 if (fullName){
-  var firstName = fullName.split(" ")[0];
+  const firstName = fullName.split(" ")[0];
   console.log(firstName);
 }
 
