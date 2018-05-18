@@ -18,5 +18,7 @@
 // }
 
 var getFirstName = function getFirstName(FullName) {
-  return fullname.console.log(getFirstName("Pewpew Hendriks"));
+  return fullname.split(" ")[0];
 };
+
+console.log(getFirstName("Pewpew Hendriks"));
