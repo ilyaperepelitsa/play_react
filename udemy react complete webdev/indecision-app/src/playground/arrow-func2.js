@@ -11,6 +11,7 @@ const user = {
     const pew = this.cities.map((city) => {
       return city});
 
+      
     // this.cities.forEach((city)=>{
     //   console.log(this.name + " has lived in " + city);
     // })
