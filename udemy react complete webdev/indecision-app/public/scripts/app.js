@@ -8,4 +8,4 @@ var squareArrow = function squareArrow(x) {
   return x * x;
 };
 console.log(square(4.25));
-console.log(square(4.211235));
+console.log(squareArrow(4.21123135));
