@@ -13,8 +13,8 @@ var user = {
     var _this = this;
 
     // const that = this;
-    console.log(this.name);
-    console.log(this.cities);
+    // console.log(this.name);
+    // console.log(this.cities);
     this.cities.forEach(function (city) {
       console.log(_this.name + " has lived in " + city);
     });
