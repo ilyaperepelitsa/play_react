@@ -10,9 +10,9 @@ const user = {
   printPlacesLived: function(){
     console.log(this.name);
     console.log(this.cities);
-    this.cities.forEach(function(city{
+    this.cities.forEach(function(city){
       
-    }))
+    })
   }
 }
 
