@@ -66,10 +66,10 @@ const template4 = (
             onClick = {addOne}>+1</button>
     <button id = "my-id"
             className = "button"
-            onClick = {addOne}>+1</button>
+            onClick = {addOne}>-1</button>
     <button id = "my-id"
             className = "button"
-            onClick = {addOne}>+1</button>
+            onClick = {addOne}>Re</button>
   </div>
 )
 
