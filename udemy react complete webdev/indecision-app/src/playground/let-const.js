@@ -1,1 +1,1 @@
-var nam
+var nameVar = "Andrew";

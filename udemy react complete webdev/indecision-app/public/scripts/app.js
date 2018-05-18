@@ -1,3 +1,3 @@
 "use strict";
 
-var nam;
+var nameVar = "Andrew";
