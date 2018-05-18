@@ -7,5 +7,5 @@ console.log(add(2, 4, 500))
 const user = {
   name: "Andrew",
   cities: ["Philadelphia", "New York", "Dublin"]
-  pr
+  printPlacesLived:
 }
