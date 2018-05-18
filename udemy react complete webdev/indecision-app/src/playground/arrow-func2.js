@@ -23,4 +23,4 @@ const multiplier = {
   }
 }
 
-console.log(multiplier)
+console.log(multiplier.multiplyBy())
