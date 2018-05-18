@@ -72,7 +72,7 @@ var template2 = React.createElement(
 );
 var appRoot = document.getElementById("app");
 
-var title = "";
+var post;
 // var template3 =
 
 
