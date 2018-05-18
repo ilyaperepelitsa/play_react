@@ -8,6 +8,6 @@ const user = {
   name: "Andrew",
   cities: ["Philadelphia", "New York", "Dublin"]
   printPlacesLived: function(){
-    cons
+    console.log(this)
   }
 }
