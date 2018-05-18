@@ -45,6 +45,7 @@ var post = {
 }
 var template3 = (
   <div>
+  Б/
 )
 
 
