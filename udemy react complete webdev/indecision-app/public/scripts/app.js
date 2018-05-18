@@ -11,11 +11,11 @@ var nameConst = "Peter";
 // const nameConst = "Steve ";
 console.log("nameConst", nameConst);
 
-var fullName = "Andre Pewpew";
+var fullName = "Andrew Pewpew";
 
 if (fullName) {
   var firstName = fullName.split(" ")[0];
   console.log(firstName);
 }
 
-console.log(f);
+console.log(firstName);
