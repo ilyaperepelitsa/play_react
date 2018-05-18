@@ -1,1 +1,1 @@
-const squa
+const square = function(){}
