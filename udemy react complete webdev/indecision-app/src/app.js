@@ -11,6 +11,7 @@ var template =
         <li>PEWPEWPEW</li>
       </ol>
     </div>
+    
 var userName = "Ilya"
 var userAge = 29
 var userLocation = "New York, NY"
