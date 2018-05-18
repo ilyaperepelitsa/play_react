@@ -39,7 +39,7 @@ var appRoot = document.getElementById("app");
 
 
 var post = {
-  
+  title: ""
 }
 // var template3 =
 
