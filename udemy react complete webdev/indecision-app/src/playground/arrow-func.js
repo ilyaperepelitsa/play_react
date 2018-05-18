@@ -3,6 +3,7 @@ const square = function(x){
 }
 
 const squareArrow = (x) => {
-  return x
+  return x*x
 }
+console.log(square(4.25))
 console.log(square(4.25))
