@@ -64,12 +64,12 @@ const template4 = (
     <button id = "my-id"
             className = "button"
             onClick = {addOne}>+1</button>
-            <button id = "my-id"
-                    className = "button"
-                    onClick = {addOne}>+1</button>
-                    <button id = "my-id"
-                            className = "button"
-                            onClick = {addOne}>+1</button>
+    <button id = "my-id"
+            className = "button"
+            onClick = {addOne}>+1</button>
+    <button id = "my-id"
+            className = "button"
+            onClick = {addOne}>+1</button>
   </div>
 )
 
