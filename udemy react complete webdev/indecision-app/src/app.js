@@ -37,10 +37,10 @@ const template2 =
       {(user.age && user.age >= 18) && <p>Age (grown-up): {user.age}</p>}
       {getLocation(user.location)}
     </div>
-var appRoot = document.getElementById("app");
+const appRoot = document.getElementById("app");
 
 
-var post = {
+const post = {
   title: "This is a tutorial nonsense",
   // subtitle: "I wouldn",
   subtitle: "I wouldn't really look into it. It's pretty long",
