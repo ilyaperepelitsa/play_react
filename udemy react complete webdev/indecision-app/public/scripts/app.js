@@ -100,6 +100,7 @@ var template3 = React.createElement(
   )
 );
 var addOne = function addOne() {
+  сщге;
   console.log("+1");
 };
 
@@ -108,7 +109,7 @@ var minusOne = function minusOne() {
 };
 
 var reset = function reset() {
-  console.log("-1");
+  console.log("reset");
 };
 var count = 0;
 

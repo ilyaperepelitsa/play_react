@@ -54,6 +54,7 @@ const template3 = (
   </div>
 )
 const addOne = () => {
+  сщге
   console.log("+1")
 }
 
@@ -62,7 +63,7 @@ const minusOne = () => {
 }
 
 const reset = () => {
-  console.log("-1")
+  console.log("reset")
 }
 var count = 0;
 
