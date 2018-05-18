@@ -13,7 +13,7 @@ var onFormSubmit = function onFormSubmit(e) {
   var option = e.target.elements.option.value;
 
   if (option) {
-    app.opti;
+    app.options.push;
   }
 };
 
