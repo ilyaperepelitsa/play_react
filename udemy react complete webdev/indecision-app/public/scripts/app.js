@@ -19,8 +19,8 @@
 //
 // console.log(user.printPlacesLived())
 var multiplier = {
-  numbers: [10, 20],
-  multiplyBy: 2,
+  numbers: [10, 20, 1233, 352452, 1231323],
+  multiplyBy: 23,
   multiply: function multiply() {
     var _this = this;
 
