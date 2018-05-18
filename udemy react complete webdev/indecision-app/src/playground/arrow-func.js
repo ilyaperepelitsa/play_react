@@ -1,1 +1,3 @@
-const square = function(){}
+const square = function(x){
+  re
+}
