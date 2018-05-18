@@ -3,7 +3,8 @@
 var appRoot = document.getElementById("app");
 
 var app = {
-  title: "In"
+  title: "Indecision App",
+  s: s
 };
 
 var onFormSubmit = function onFormSubmit(e) {

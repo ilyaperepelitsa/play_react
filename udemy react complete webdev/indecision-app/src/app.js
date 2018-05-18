@@ -2,7 +2,8 @@
 const appRoot = document.getElementById("app");
 
 const app = {
-  title: "In"
+  title: "Indecision App",
+  s
 }
 
 
