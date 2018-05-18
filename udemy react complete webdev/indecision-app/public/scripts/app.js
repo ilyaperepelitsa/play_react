@@ -1,5 +1,4 @@
+// var nameVar = "Andrew";
+// var nameVar = "Mike";
+// console.log("nameVar", nameVar)
 "use strict";
-
-var nameVar = "Andrew";
-var nameVar = "Andrew";
-console.log("nameVar", nameVar);

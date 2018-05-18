@@ -1,3 +1,3 @@
-var nameVar = "Andrew";
-var nameVar = "Andrew";
-console.log("nameVar", nameVar)
+// var nameVar = "Andrew";
+// var nameVar = "Mike";
+// console.log("nameVar", nameVar)
