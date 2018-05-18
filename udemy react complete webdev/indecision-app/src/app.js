@@ -46,7 +46,7 @@ var post = {
 var template3 = (
   <div>
     <h1>{post.title}</h1>
-    <
+    <p><
   </div>
 )
 
