@@ -15,6 +15,6 @@
 //   return fullname.split(" ")[0]
 // }
 
-const getFirstName = (FullName) => fullname.split(" ")[0]
+const getFirstName = (fullname) => fullname.split(" ")[0]
 
 console.log(getFirstName("Pewpew Hendriks"))

@@ -17,7 +17,7 @@
 //   return fullname.split(" ")[0]
 // }
 
-var getFirstName = function getFirstName(FullName) {
+var getFirstName = function getFirstName(fullname) {
   return fullname.split(" ")[0];
 };
 
