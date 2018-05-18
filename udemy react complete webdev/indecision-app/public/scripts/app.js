@@ -14,3 +14,5 @@ var user = {
     console.log(this.cities);
   }
 };
+
+us;
