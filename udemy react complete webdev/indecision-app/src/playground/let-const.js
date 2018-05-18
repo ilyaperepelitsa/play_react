@@ -6,5 +6,5 @@ nameLet = "Hanne";
 console.log("nameLet", nameLet)
 
 
-nameLet = "Hanne";
+const nameConst = "Hanne";
 console.log("nameLet", nameLet)
