@@ -1,7 +1,9 @@
 
 const appRoot = document.getElementById("app");
 
-c
+const app = {
+  title: "In"
+}
 
 
 const onFormSubmit = (e) => {

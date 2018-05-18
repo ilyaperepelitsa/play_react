@@ -2,7 +2,9 @@
 
 var appRoot = document.getElementById("app");
 
-c;
+var app = {
+  title: "In"
+};
 
 var onFormSubmit = function onFormSubmit(e) {
   e.preventDefault();
