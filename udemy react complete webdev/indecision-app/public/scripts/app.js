@@ -12,7 +12,9 @@ var user = {
   printPlacesLived: function printPlacesLived() {
     console.log(this.name);
     console.log(this.cities);
-    this.cities.forEach(function (city) {});
+    this.cities.forEach(function (city) {
+      console.log;
+    });
   }
 };
 
