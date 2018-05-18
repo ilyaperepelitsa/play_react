@@ -16,4 +16,6 @@
 // }
 //
 // console.log(user.printPlacesLived())
-const multiplier = 
+const multiplier = {
+  numbers = 
+}
