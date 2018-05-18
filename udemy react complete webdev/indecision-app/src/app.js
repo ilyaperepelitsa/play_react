@@ -41,7 +41,7 @@ var appRoot = document.getElementById("app");
 var post = {
   title: "This is a tutorial nonsense",
   subtitle: "I wouldn't really look into it",
-  
+  some_num 
 }
 // var template3 =
 
