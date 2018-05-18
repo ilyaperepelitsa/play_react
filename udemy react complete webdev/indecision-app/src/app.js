@@ -5,7 +5,9 @@ const onFormSubmit = (e) => {
   e.preventDefault();
   const option = e.target.elements.option.value;
 
-  if (option)
+  if (option){
+    c
+  }
 }
 
 const template = (
