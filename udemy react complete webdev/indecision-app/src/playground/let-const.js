@@ -1,2 +1,2 @@
 var nameVar = "Andrew";
-console.log("name")
+console.log("nameVar", nameVar)
