@@ -21,7 +21,12 @@
   <!-- JAVASCRIPT -->
   <script type="text/babel">
     class App extends React.Component {
-      
+      constructor(props) {
+        super(props);
+        this.state = {
+          items: []
+        };
+      }
       // componentDidMount
       // most common use case: starting AJAX calls to load data for your component
       // can call setState
