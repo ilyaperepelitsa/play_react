@@ -1,5 +1,6 @@
 yarn init
 yarn add babel-preset-react
+yarn add babel-preset-react
 
 // live-server public
 // babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch
