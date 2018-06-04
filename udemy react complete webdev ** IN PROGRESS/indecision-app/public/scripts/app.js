@@ -1,40 +1,31 @@
 "use strict";
 
+// yarn init
+// yarn add babel-preset-react
+// yarn add babel-preset-env
+
+// live-server public
+// babel src/app.js --out-file=public/app.js --presets=env,react --watch
+
+// babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch
+// babel src/playground/let-const.js --out-file=public/scripts/app.js --presets=env,react --watch
+
+
 var appRoot = document.getElementById("app");
 
-var app = {
-  title: "Indecision App",
-  subtitle: "Put thingy thingy thing",
-  options: ["One", "Two"]
-};
-
-var onFormSubmit = function onFormSubmit(e) {
-  e.preventDefault();
-  var option = e.target.elements.option.value;
-  e.target.elements.option.value = "";
-
-  if (option) {
-    app.options.push(option);
-  }
+var user = {
+  age: 23,
+  name: "Peter",
+  message: "Pewpew"
 };
 
 var template = React.createElement(
   "div",
   null,
   React.createElement(
-    "p",
+    "h1",
     null,
-    app.options.length
-  ),
-  React.createElement(
-    "form",
-    { onSubmit: onFormSubmit },
-    React.createElement("input", { type: "text", name: "option" }),
-    React.createElement(
-      "button",
-      null,
-      "Add option"
-    )
+    user.name ? user.name : "Anonymous"
   )
 );
 
