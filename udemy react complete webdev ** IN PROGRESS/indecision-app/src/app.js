@@ -21,7 +21,7 @@ var template = (
   <div>
     // good for when you want two options
     <h1>{user.name ? user.name: "Anonymous"}</h1>
-      // good for when you want two options
+    // good for when you want one thing if
   </div>
 )
 

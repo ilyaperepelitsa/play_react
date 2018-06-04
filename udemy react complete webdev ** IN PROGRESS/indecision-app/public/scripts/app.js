@@ -28,7 +28,7 @@ var template = React.createElement(
     null,
     user.name ? user.name : "Anonymous"
   ),
-  "// good for when you want two options"
+  "// good for when you want one thing if"
 );
 
 ReactDOM.render(template, appRoot);
