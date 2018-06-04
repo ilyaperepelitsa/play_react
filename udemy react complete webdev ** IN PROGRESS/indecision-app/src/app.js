@@ -18,7 +18,7 @@ var user = {
 }
 
 var template = {
-
+<div></div>
 }
 
 ReactDOM.render(template, appRoot)
