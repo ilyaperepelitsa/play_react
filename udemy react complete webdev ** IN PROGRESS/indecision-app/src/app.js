@@ -11,7 +11,9 @@
 
 const appRoot = document.getElementById("app");
 
-var us
+var user = {
+
+}
 
 const onFormSubmit = (e) => {
   e.preventDefault();

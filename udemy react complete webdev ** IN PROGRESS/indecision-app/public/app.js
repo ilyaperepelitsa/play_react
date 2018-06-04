@@ -13,7 +13,7 @@
 
 var appRoot = document.getElementById("app");
 
-var us;
+var user = {};
 
 var onFormSubmit = function onFormSubmit(e) {
   e.preventDefault();
