@@ -22,6 +22,7 @@ var template = (
     // good for when you want two options
     <h1>{user.name ? user.name: "Anonymous"}</h1>
     // good for when you want one thing ifit exists or nothing
+    <h1>{user.name ? user.name: "Anonymous"}</h1>
   </div>
 )
 
