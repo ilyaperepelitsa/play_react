@@ -19,7 +19,7 @@ var user = {
 
 var template = (
   <div>
-    good for
+    good fortwo op
     <h1>{user.name ? user.name: "Anonymous"}</h1>
   </div>
 )
