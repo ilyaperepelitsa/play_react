@@ -32,7 +32,7 @@ var template = React.createElement(
   React.createElement(
     "h1",
     null,
-    user.name ? user.name : "Anonymous"
+    user.name && {}
   )
 );
 
