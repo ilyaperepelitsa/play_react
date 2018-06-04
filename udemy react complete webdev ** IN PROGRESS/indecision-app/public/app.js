@@ -19,4 +19,6 @@ var user = {
   message: "Pewpew"
 };
 
+var template = {};
+
 ReactDOM.render(template, appRoot);
