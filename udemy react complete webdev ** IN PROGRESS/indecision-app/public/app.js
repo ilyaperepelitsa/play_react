@@ -13,6 +13,8 @@
 
 var appRoot = document.getElementById("app");
 
-var user = {};
+var user = {
+  age: 23
+};
 
 ReactDOM.render(template, appRoot);
