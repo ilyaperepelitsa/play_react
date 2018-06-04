@@ -33,6 +33,11 @@ var template = React.createElement(
     "h1",
     null,
     user.name
+  ),
+  user.age && React.createElement(
+    "h1",
+    null,
+    user.name
   )
 );
 
