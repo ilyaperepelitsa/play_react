@@ -17,10 +17,10 @@ var user = {
   message: "Pewpew"
 }
 
-var template = ()
+var template = (
   <div>
     <h1>{user.name ? user.name: "Anonymous"}</h1>
   </div>
-}
+)
 
 ReactDOM.render(template, appRoot)
