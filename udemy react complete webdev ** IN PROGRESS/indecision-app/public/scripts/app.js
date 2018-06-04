@@ -22,7 +22,7 @@ var user = {
 var template = React.createElement(
   "div",
   null,
-  "good fortwo op",
+  "good for when you want",
   React.createElement(
     "h1",
     null,
