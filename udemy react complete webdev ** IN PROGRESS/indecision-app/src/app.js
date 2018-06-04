@@ -23,7 +23,7 @@ var template = (
     <h1>{user.name ? user.name: "Anonymous"}</h1>
     // good for when you want one thing ifit exists or nothing
     {user.name && <h1>{user.name}</h1>}
-    {(user.age && )<h1>{user.name}</h1>}
+    {(user.age && user.age )<h1>{user.name}</h1>}
   </div>
 )
 
