@@ -11,12 +11,7 @@
 
 const appRoot = document.getElementById("app");
 
-const app = {
-  title: "Indecision App",
-  subtitle: "Put thingy thingy thing",
-  options: ["One", "Two"]
-}
-
+var us
 
 const onFormSubmit = (e) => {
   e.preventDefault();
