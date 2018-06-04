@@ -19,7 +19,7 @@ var user = {
 
 var template = {
   <div>
-<h
+    <h1></h1>
   </div>
 }
 
