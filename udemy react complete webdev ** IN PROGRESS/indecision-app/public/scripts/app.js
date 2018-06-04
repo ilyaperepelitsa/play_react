@@ -22,12 +22,13 @@ var user = {
 var template = React.createElement(
   "div",
   null,
-  "good for when you want two options",
+  "// good for when you want two options",
   React.createElement(
     "h1",
     null,
     user.name ? user.name : "Anonymous"
-  )
+  ),
+  "// good for when you want two options"
 );
 
 ReactDOM.render(template, appRoot);
