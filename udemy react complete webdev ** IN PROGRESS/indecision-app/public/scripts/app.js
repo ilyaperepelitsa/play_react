@@ -28,7 +28,7 @@ var template = React.createElement(
     null,
     user.name ? user.name : "Anonymous"
   ),
-  "// good for when you want one thing if"
+  "// good for when you want one thing ifit exists or nothing"
 );
 
 ReactDOM.render(template, appRoot);
