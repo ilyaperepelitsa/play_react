@@ -19,7 +19,7 @@ var user = {
 
 var template = {
   <div>
-    <h1>{userm}</h1>
+    <h1>{user.name ? }</h1>
   </div>
 }
 
