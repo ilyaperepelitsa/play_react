@@ -41,5 +41,10 @@ var Student = function (_Person) {
     return _this;
   }
 
+  _createClass(Student, [{
+    key: "hasMajor",
+    value: function hasMajor() {}
+  }]);
+
   return Student;
 }(Person);
