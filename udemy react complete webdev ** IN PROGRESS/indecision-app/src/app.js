@@ -18,6 +18,8 @@ class Student extends Person {
   hasMajor(){
     return !!this.major;
   }
-  getDescr
+  getDescription(){
+    
+  }
 
 }

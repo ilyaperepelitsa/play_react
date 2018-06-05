@@ -46,6 +46,9 @@ var Student = function (_Person) {
     value: function hasMajor() {
       return !!this.major;
     }
+  }, {
+    key: "getDescription",
+    value: function getDescription() {}
   }]);
 
   return Student;
