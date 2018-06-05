@@ -1,6 +1,6 @@
 
 class Person {
-  constructor(, ){
+  constructor(name = "adsa", ){
     some constructor nonsense
   }
   getGreeting(){
