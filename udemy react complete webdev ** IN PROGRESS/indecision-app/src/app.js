@@ -1,8 +1,4 @@
-class Header extends React.Component {
-  render(){
-    return <p>pewpew</p>
-  }
-}
+
 
 jsx = {
   <div
