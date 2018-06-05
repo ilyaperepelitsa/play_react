@@ -15,6 +15,8 @@ class Student extends Person {
     super(name, age);
     this.major = major
   }
-  hasMajor(){}
+  hasMajor(){
+    retur
+  }
 
 }
