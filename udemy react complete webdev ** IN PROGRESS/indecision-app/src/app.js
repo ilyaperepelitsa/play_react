@@ -1,6 +1,6 @@
 
 class Person {
-  constructor(){
+  constructor(, ){
     some constructor nonsense
   }
   getGreeting(){
@@ -9,4 +9,6 @@ class Person {
 }
 
 
-class Student extends Person
+class Student extends Person {
+
+}
