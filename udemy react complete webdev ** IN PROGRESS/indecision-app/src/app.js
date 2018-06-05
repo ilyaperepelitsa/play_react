@@ -11,5 +11,6 @@ class Person {
 
 
 class Student extends Person {
+  constructor(name, ag)
 
 }
