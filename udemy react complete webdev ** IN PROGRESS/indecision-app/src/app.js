@@ -2,7 +2,7 @@ let visibility = false;
 
 const render = () =>
   {
-    cons
+    const jsx = ()
     <div>
       <h1>Visibility toggle</h1>
       <button onClick = >
