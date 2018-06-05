@@ -5,6 +5,8 @@ class Header React.Component {
       <p>pewpew</p>
     </div>
   }
-}
+
+
+const
 
 ReactDOM.render(jsx, document.getElementById("app"))
