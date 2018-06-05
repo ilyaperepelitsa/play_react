@@ -7,6 +7,8 @@ class Header React.Component {
   }
 
 
-const
+const jsx = {
+  
+}
 
 ReactDOM.render(jsx, document.getElementById("app"))
