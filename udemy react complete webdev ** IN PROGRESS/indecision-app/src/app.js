@@ -5,7 +5,7 @@ class Header React.Component {
       <p>pewpew</p>
     </div>
   }
-
+}
 
 const jsx = {
   <Header/>
