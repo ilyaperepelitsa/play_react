@@ -1,6 +1,7 @@
 
 class Person {
   constructor(){
-    some constructor nonsen
+    some constructor nonsense
   }
+  getGreet
 }
