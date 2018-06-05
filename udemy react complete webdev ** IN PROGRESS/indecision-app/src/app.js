@@ -4,12 +4,12 @@ class Header extends React.Component {
   }
 }
 
-// let jsx = {
-//   <div
-//     <h1>pewpew</h1>
-//     <Header />
-//   </div>
-// }
+let jsx = {
+  <div
+    <h1>pewpew</h1>
+    <Header />
+  </div>
+}
 
 
 ReactDOM.render(<Header/>, document.getElementById("app"))
