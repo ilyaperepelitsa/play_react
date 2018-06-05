@@ -1,6 +1,6 @@
 let visibility = false;
 
-const 
+const toggleVi
 
 const render = () =>
   {
