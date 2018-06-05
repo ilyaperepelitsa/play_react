@@ -2,4 +2,6 @@
 
 var visibility = false;
 
-var render = function render() {};
+var render = function render() {
+  React.createElement("div", null);
+};
