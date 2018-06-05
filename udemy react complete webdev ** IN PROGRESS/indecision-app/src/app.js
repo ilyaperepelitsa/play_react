@@ -1,15 +1,14 @@
 class Header extends React.Component {
   render(){
-    return <p>pewpew</p>
+    return <p>Header</p>
   }
 }
 
 const jsx = (
   <div>
-
-  </div>
     <h1>pewpew</h1>
     <Header />
+  </div>
 )
 
 
