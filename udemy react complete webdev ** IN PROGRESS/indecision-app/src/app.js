@@ -7,4 +7,4 @@ class Header React.Component {
   }
 }
 
-React.DOM.
+ReactDOM
