@@ -44,7 +44,7 @@ var Student = function (_Person) {
   _createClass(Student, [{
     key: "hasMajor",
     value: function hasMajor() {
-      return;
+      return !!this.major;
     }
   }]);
 
