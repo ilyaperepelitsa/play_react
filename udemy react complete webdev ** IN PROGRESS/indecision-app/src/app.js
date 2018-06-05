@@ -9,9 +9,9 @@ class Header extends React.Component {
 
 jsx = {
   <div>
-    <Header>
+    <Header/>
   </div>
 }
 
 
-ReactDOM.render(<Header/>, document.getElementById("app"))
+ReactDOM.render(jsx, document.getElementById("app"))
