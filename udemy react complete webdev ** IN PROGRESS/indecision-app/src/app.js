@@ -9,4 +9,4 @@ class Person {
 }
 
 
-class Student exte
+class Student extends Person
