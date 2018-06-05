@@ -4,8 +4,8 @@ class Header extends React.Component {
   }
 }
 
-const jsasdasdx = {
-  <div></div>
+const jsx = {
+  <div>
     <h1>pewpew</h1>
     <Header />
   </div>
