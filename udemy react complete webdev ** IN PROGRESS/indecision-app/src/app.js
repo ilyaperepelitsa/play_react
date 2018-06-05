@@ -1,11 +1,13 @@
 let visibility = false;
 
+const 
+
 const render = () =>
   {
     const jsx = (
     <div>
       <h1>Visibility toggle</h1>
-      <button onClick = {toggleVisibil}>
+      <button onClick = {toggleVisibility}>
         {visibility ? "Hide details" : "Show details"}
       </button>
     </div>
