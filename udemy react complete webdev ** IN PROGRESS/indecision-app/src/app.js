@@ -1,4 +1,4 @@
-class Header React.Component {
+class Header extends React.Component {
   render(){
     return
     <div>
