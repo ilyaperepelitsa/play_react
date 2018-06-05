@@ -4,6 +4,6 @@ class Person {
     some constructor nonsense
   }
   getGreeting(){
-    return 'Hi blah blah blah ${this.name}';~``
+    return Hi blah blah blah ${this.name};
   }
 }
