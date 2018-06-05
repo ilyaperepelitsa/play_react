@@ -12,4 +12,4 @@ const jsx = {
 }
 
 
-ReactDOM.render(<Header/>, document.getElementById("app"))
+ReactDOM.render(jsx, document.getElementById("app"))
