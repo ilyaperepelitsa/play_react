@@ -4,7 +4,7 @@ class Header extends React.Component {
   }
 }
 
-let jsx = {
+const jsx = {
   <div
     <h1>pewpew</h1>
     <Header />
