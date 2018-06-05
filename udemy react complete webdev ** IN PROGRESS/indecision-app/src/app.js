@@ -10,5 +10,7 @@ const render = () =>
       </button>
     </div>
   );
-    ReactDOM.render(jsx, document.getEle)
+    ReactDOM.render(jsx, document.getElementById("app"))
   }
+
+render()
