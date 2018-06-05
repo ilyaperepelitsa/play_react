@@ -5,7 +5,7 @@ const render = () =>
     <div>
       <h1>Visibility toggle</h1>
       <button onClick = >
-        {visibility ? }
+        {visibility ? "Hide deta"}
       </button>
     </div>
   }
