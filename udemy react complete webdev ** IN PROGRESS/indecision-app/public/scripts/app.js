@@ -39,4 +39,4 @@ var Header = function (_React$Component) {
 // }
 
 
-ReactDOM.render(jsx, document.getElementById("app"));
+ReactDOM.render(Header, document.getElementById("app"));
