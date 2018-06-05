@@ -4,6 +4,6 @@ class Person {
     some constructor nonsense
   }
   getGreeting(){
-    return 'Hy'
+    return 'Hi blah blah blah'
   }
 }
