@@ -1,7 +1,7 @@
 
 class Person {
   constructor(name = "adsa", age = 123){
-    some constructor nonsense
+    this.
   }
   getGreeting(){
     return `Hi blah blah blah ${this.name}`;
