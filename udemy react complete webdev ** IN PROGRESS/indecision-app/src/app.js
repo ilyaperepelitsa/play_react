@@ -1,3 +1,5 @@
 class Header React.Component {
-  render
+  render(){
+    
+  }
 }
