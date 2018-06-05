@@ -8,7 +8,7 @@ class Header React.Component {
 
 
 const jsx = {
-  <
+  <Header></Header>
 }
 
 ReactDOM.render(jsx, document.getElementById("app"))
