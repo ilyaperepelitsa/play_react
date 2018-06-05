@@ -7,4 +7,4 @@ class Header React.Component {
   }
 }
 
-ReactDOM
+ReactDOM.render(jsx, )
