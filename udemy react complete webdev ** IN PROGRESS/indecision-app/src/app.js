@@ -1,3 +1,3 @@
 let visibility = false;
 
-const render =
+const render = () =>
