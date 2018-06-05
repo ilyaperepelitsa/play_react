@@ -48,7 +48,9 @@ var Student = function (_Person) {
     }
   }, {
     key: "getDescription",
-    value: function getDescription() {}
+    value: function getDescription() {
+      de;
+    }
   }]);
 
   return Student;
