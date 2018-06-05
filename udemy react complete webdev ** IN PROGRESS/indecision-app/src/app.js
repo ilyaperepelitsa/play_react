@@ -16,7 +16,7 @@ class Student extends Person {
     this.major = major
   }
   hasMajor(){
-    retur
+    return 
   }
 
 }
