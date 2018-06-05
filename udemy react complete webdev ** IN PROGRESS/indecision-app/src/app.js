@@ -2,7 +2,7 @@ let visibility = false;
 
 const toggleVisibility = () =>
   {
-    
+
   }
 
 const render = () =>
@@ -14,8 +14,8 @@ const render = () =>
         {visibility ? "Hide details" : "Show details"}
       </button>
     </div>
-  );
-    ReactDOM.render(jsx, document.getElementById("app"))
+    );
+      ReactDOM.render(jsx, document.getElementById("app"))
   }
 
 render()
