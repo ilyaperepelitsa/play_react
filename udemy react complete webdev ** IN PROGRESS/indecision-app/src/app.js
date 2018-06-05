@@ -2,7 +2,7 @@ let visibility = false;
 
 const toggleVisibility = () =>
   {
-    vi
+    visibility = !
   }
 
 const render = () =>
