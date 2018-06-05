@@ -1,3 +1,3 @@
-class Header React.Compone {
-
+class Header React.Component {
+  
 }
