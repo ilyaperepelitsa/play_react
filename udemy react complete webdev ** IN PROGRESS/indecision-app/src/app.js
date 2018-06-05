@@ -11,6 +11,6 @@ class Person {
 
 
 class Student extends Person {
-  constructor(name, ag)
+  constructor(name, age, major)
 
 }
