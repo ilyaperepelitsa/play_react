@@ -20,7 +20,8 @@ var render = function render() {
       "button",
       { onClick: toggleVisibility },
       visibility ? "Hide details" : "Show details"
-    )
+    ),
+    visibility
   );
   ReactDOM.render(jsx, document.getElementById("app"));
 };
