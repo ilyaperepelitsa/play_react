@@ -7,4 +7,4 @@ class Header React.Component {
   }
 }
 
-ReactDOM.render(jsx, document.getElementById)
+ReactDOM.render(jsx, document.getElementById("app"))
