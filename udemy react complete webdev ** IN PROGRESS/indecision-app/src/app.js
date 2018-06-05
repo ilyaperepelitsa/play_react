@@ -1,6 +1,9 @@
 let visibility = false;
 
-const toggleVisibility
+const toggleVisibility = () =>
+{
+  
+}
 
 const render = () =>
   {
