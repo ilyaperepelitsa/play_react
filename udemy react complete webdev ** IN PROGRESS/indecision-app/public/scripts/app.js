@@ -37,7 +37,7 @@ var Student = function (_Person) {
 
     var _this = _possibleConstructorReturn(this, (Student.__proto__ || Object.getPrototypeOf(Student)).call(this, name, age));
 
-    _this.major = m;
+    _this.major = major;
     return _this;
   }
 

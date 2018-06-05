@@ -13,7 +13,8 @@ class Person {
 class Student extends Person {
   constructor(name, age, major){
     super(name, age);
-    this.major = m
+    this.major = major
   }
+  
 
 }
