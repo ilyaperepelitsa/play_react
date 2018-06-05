@@ -7,7 +7,11 @@ class Header extends React.Component {
   }
 }
 
-jsx = 
+jsx = {
+  <div>
+
+  </div>
+}
 
 
 ReactDOM.render(<Header/>, document.getElementById("app"))
