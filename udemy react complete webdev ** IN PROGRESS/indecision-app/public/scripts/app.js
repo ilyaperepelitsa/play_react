@@ -2,7 +2,9 @@
 
 var visibility = false;
 
-var toggleVisibility = function toggleVisibility() {};
+var toggleVisibility = function toggleVisibility() {
+  vi;
+};
 
 var render = function render() {
   var jsx = React.createElement(
