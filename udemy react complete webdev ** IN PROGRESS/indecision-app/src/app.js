@@ -1,4 +1,6 @@
 
 class Person {
-  constructor(){}
+  constructor(){
+    some constructor nonsen
+  }
 }
