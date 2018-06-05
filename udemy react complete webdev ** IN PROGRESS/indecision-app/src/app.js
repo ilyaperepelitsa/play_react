@@ -5,7 +5,9 @@ class Header extends React.Component {
 }
 
 const jsx = (
-  <di
+  <div>
+
+  </div>
     <h1>pewpew</h1>
     <Header />
 )
