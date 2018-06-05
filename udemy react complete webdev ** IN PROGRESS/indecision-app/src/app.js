@@ -4,6 +4,7 @@ const render = () =>
   {
     <div>
       <h1>Visibility toggle</h1>
-      <button></button>
+      <button on>
+      </button>
     </div>
   }

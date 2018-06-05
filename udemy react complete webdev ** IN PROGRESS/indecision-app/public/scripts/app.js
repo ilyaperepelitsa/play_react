@@ -11,6 +11,6 @@ var render = function render() {
       null,
       "Visibility toggle"
     ),
-    React.createElement("button", null)
+    React.createElement("button", { on: true })
   );
 };
