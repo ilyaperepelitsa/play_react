@@ -19,7 +19,7 @@ class Student extends Person {
     return !!this.major;
   }
   getDescription(){
-    let description = super.getDescription()
+    let description = super.getDescription();
   }
 
 }
