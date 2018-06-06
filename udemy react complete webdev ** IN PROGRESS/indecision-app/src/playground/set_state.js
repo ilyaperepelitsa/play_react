@@ -1,6 +1,6 @@
 // function examples
 handleMinusOne() {
-  this.setState((prevState) =>{
+  this.setState((prevState) => {
     return {
       count: prevState.count - 1
     }
@@ -11,7 +11,7 @@ handleMinusOne() {
 handleReset() {
   this.setState(() => {
     return {
-      count: prevState.count - 1
+      count: 0
     }
   })
 }
