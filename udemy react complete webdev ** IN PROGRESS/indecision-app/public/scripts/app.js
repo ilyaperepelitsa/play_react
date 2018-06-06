@@ -20,8 +20,7 @@ var Header = function (_React$Component) {
   _createClass(Header, [{
     key: "render",
     value: function render() {
-      return;
-      React.createElement(
+      return React.createElement(
         "div",
         null,
         React.createElement(
@@ -48,8 +47,7 @@ var Paragraph = function (_React$Component2) {
   _createClass(Paragraph, [{
     key: "render",
     value: function render() {
-      return;
-      React.createElement(
+      return React.createElement(
         "div",
         null,
         React.createElement(
