@@ -25,4 +25,4 @@ const jsx = (
 )
 
 
-ReactDOM.render(<Header, document.getElementById("app"))
+ReactDOM.render(<Header/>, document.getElementById("app"))
