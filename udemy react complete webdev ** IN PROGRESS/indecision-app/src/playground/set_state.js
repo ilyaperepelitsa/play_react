@@ -1,4 +1,4 @@
 // function examples
 handleMinusOne() {
-  this.setState((prevstate))
+  this.setState((prevState) )
 }
