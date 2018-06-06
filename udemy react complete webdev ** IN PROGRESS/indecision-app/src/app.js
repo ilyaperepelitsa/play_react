@@ -9,10 +9,10 @@ class Header extends React.Component {
 
 class Paragraph extends React.Component {
   render(){
-    return
+    return(
     <div>
       <p>Thingy thingy blah blah</p>
-    </div>
+    </div>)
   }
 }
 
