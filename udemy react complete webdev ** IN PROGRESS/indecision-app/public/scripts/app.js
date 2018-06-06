@@ -63,11 +63,4 @@ var Paragraph = function (_React$Component2) {
   return Paragraph;
 }(React.Component);
 
-var jsx = React.createElement(
-  "div",
-  null,
-  React.createElement(Header, null),
-  React.createElement(Paragraph, null)
-);
-
 ReactDOM.render(React.createElement(Header, null), document.getElementById("app"));

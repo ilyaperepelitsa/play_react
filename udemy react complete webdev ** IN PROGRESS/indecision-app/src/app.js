@@ -17,12 +17,7 @@ class Paragraph extends React.Component {
   }
 }
 
-const jsx = (
-  <div>
-    <Header />
-    <Paragraph />
-  </div>
-)
+
 
 
 ReactDOM.render(<Header/>, document.getElementById("app"))
