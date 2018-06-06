@@ -21,7 +21,11 @@ var Header = function (_React$Component) {
     key: "render",
     value: function render() {
       return;
-      React.createElement("div", null);
+      React.createElement(
+        "div",
+        null,
+        React.createElement("h1", null)
+      );
     }
   }]);
 
