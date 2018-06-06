@@ -1,6 +1,6 @@
 class Header extends React.Component {
   render(){
-    return <p>Header</p>
+    return <
   }
 }
 
