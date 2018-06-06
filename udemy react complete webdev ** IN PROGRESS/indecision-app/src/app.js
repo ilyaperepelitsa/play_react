@@ -19,6 +19,7 @@ class Paragraph extends React.Component {
 const jsx = (
   <div>
     <Header />
+    <Paragraph />
   </div>
 )
 
