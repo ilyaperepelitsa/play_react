@@ -3,7 +3,7 @@ class Header extends React.Component {
     return(
     <div>
       <h1>Header thing</h1>
-      <Paragraph
+      <Paragraph/>
     </div>)
   }
 }
