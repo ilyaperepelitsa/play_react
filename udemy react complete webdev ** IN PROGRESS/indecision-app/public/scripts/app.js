@@ -55,7 +55,7 @@ var Paragraph = function (_React$Component2) {
         React.createElement(
           "h1",
           null,
-          "Header thing"
+          "Thingy thingy blah "
         )
       );
     }
