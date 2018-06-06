@@ -11,14 +11,13 @@ class Paragraph extends React.Component {
   render(){
     return
     <div>
-      <p>Thingy thingy blah blah</h1>
+      <p>Thingy thingy blah blah</p>
     </div>
   }
 }
 
 const jsx = (
   <div>
-    <h1>pewpew</h1>
     <Header />
   </div>
 )
