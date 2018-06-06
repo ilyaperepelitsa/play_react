@@ -1,1 +1,1 @@
-function exampl
+// function examples
