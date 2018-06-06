@@ -8,8 +8,8 @@ handleMinusOne() {
 }
 
 
-handleMinusOne() {
-  this.setState((prevState) =>{
+handleReset() {
+  this.setState(() => {
     return {
       count: prevState.count - 1
     }
