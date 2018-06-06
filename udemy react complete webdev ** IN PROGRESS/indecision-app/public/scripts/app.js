@@ -24,7 +24,11 @@ var Header = function (_React$Component) {
       React.createElement(
         "div",
         null,
-        React.createElement("h1", null)
+        React.createElement(
+          "h1",
+          null,
+          "Header thing"
+        )
       );
     }
   }]);
