@@ -11,7 +11,7 @@ class Paragraph extends React.Component {
   render(){
     return
     <div>
-      <h1>Thingy thingy blah </h1>
+      <p>Thingy thingy blah blah</h1>
     </div>
   }
 }
