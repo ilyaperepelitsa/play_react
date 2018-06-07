@@ -1,1 +1,3 @@
-Counter.default
+Counter.defaultProps = {
+  
+}
